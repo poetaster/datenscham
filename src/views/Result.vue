@@ -7,9 +7,9 @@
     <aside>
       Spenden widget
     </aside>
-    <router-link :to="{name: 'quiz'}">Nochmal</router-link>
+    <router-link :to="{ name: 'quiz' }">Nochmal</router-link>
     |
-    <router-link :to="{name: 'home'}">Zur Startseite</router-link>
+    <router-link :to="{ name: 'home' }">Zur Startseite</router-link>
   </div>
 </template>
 
@@ -17,7 +17,6 @@
  export default {
    name: 'Home',
    components: {
-
    },
    data() {
      return {
@@ -34,5 +33,4 @@
 </script>
 
 <style>
-
 </style>

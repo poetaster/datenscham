@@ -44,11 +44,6 @@ export default {
   watch: {
     score(score) {
       this.$emit('answerClicked', { score, id: this.data.id })
-    },
-    missingQ(missings) {
-      //debugger
-      //console.log(missings)
-      //this.isStillMissing()
     }
   },
    methods: {

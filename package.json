@@ -14,7 +14,7 @@
   ],
   "scripts": {
     "serve": "vue-cli-service serve --skip-plugins @vue/cli-plugin-eslint",
-    "build": "vue-cli-service build",
+    "build": "vue-cli-service build --skip-plugins @vue/cli-plugin-eslint",
     "bundle": "cross-env NODE_ENV=production rollup --config build/rollup.config.js",
     "bundle:ssr": "cross-env NODE_ENV=production rollup --config build/rollup.config.js --format cjs",
     "bundle:es": "cross-env NODE_ENV=production rollup --config build/rollup.config.js --format es",

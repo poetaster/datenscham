@@ -1,46 +1,115 @@
 [
   {
-    "id": 2323,
-    "title": "How many night do you sleep in a regular week?",
+    "id": 1,
+    "title": "Welchen Browser benutzt Du?",
     "answers": [
-      { "text": "≥8", "score": 3 },
-      { "text": "6–7", "score": 2 },
-      { "text": "0–5", "score": 0 }
+      { "text": "Firefox", "score": 3 },
+      { "text": "Chrome", "score": 2 },
+      { "text": "Safari", "score": 0 },
+      { "text": "Andere", "score": 0 }
     ]
   },
   {
-    "id": 12323431,
-    "title": "How many Tour de France stages have you won?",
+    "id": 2,
+    "title": "Welche Suchmaschine benutzt Du hauptsächlich?",
     "answers": [
-      { "text": "≥2", "score": 10 },
-      { "text": "1", "score": 5 },
-      { "text": "0", "score": 0 }
+      { "text": "Google", "score": 10 },
+      { "text": "Bing", "score": 5 },
+      { "text": "Yahoo", "score": 0 },
+      { "text": "Ecosia", "score": 0 },
+      { "text": "Startpage", "score": 0 },
+      { "text": "DuckDuckGo", "score": 0 },
+      { "text": "Andere", "score": 0 }
     ]
   },
   {
-    "id": 2342242452,
-    "title": "Do you like cheese or meat better?",
+    "id": 3,
+    "title": "Und wie oft löscht Du deine Browserdaten?",
     "answers": [
-      { "text": "Cheese", "score": 10 },
-      { "text": "Meat", "score": -5 }
+      { "text": "täglich", "score": 10 },
+      { "text": "wöchentlich", "score": -5 },
+      { "text": "monatlich", "score": -5 },
+      { "text": "nie", "score": -5 }
     ]
   },
   {
-    "id": 124521,
-    "title": "Do you breathe daily?",
+    "id": 4,
+    "title": "Welchen Cloud-Speicher benutzt Du?",
     "answers": [
-      { "text": "Yes", "score": 10 },
-      { "text": "No", "score": -100 },
-      { "text": "n/a", "score": 0 }
-    ],
-    "footnote": "You might be dead if you choose no."
+      { "text": "Google Drive", "score": 10 },
+      { "text": "Dropbox", "score": -100 },
+      { "text": "NextCloud", "score": 0 },
+      { "text": "Andere", "score": -5 }
+    ]
   },
   {
-    "id": 241941,
-    "title": "calculator_question_6",
+    "id": 5,
+    "title": "Verschlüsselst Du deine E-Mails?",
     "answers": [
       { "text": "ja", "score": 10 },
       { "text": "nein", "score": 0 }
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Ist deine Festplatte verschlüsselt?",
+    "answers": [
+      { "text": "ja", "score": 10 },
+      { "text": "nein", "score": 0 }
+    ]
+  },
+  {
+    "id": 7,
+    "title": "Welchen Messanger benutzt Du hauptsächlich?",
+    "answers": [
+      { "text": "WhatsApp", "score": 10 },
+      { "text": "Telegram", "score": -5 },
+      { "text": "Facebook Messenger", "score": -5 },
+      { "text": "Signal", "score": -5 },
+      { "text": "Andere", "score": -5 }
+    ]
+  },
+  {
+    "id": 7,
+    "title": "Welche Social Media Kanäle nutzt Du hauptsächlich?",
+    "answers": [
+      { "text": "Twitter", "score": 10 },
+      { "text": "Facebook", "score": -5 },
+      { "text": "Instagram", "score": -5 },
+      { "text": "TikTok", "score": -5 },
+      { "text": "Mastodon", "score": -5 },
+      { "text": "Andere", "score": -5 }
+    ]
+  },
+  {
+    "id": 8,
+    "title": "Welchen Messanger benutzt Du hauptsächlich?",
+    "answers": [
+      { "text": "WhatsApp", "score": 10 },
+      { "text": "Telegram", "score": -5 },
+      { "text": "Facebook Messenger", "score": -5 },
+      { "text": "Signal", "score": -5 }
+    ]
+  },
+  {
+    "id": 9,
+    "title": "Wieviel Prozent deiner Online-Bestellungen hast Du bei Amazon getätigt?",
+    "answers": [
+      { "text": "0%", "score": 10 },
+      { "text": "1% - 25%", "score": 10 },
+      { "text": "26% - 50%", "score": -5 },
+      { "text": "51% - 75%", "score": -5 },
+      { "text": "76% - 100%", "score": -5 }
+    ]
+  },
+  {
+    "id": 10,
+    "title": "Wieviele Stunden am Tag verbringst du online (alle Aktivitäten zusammen)?",
+    "answers": [
+      { "text": "0 - 2", "score": 10 },
+      { "text": "2 - 4", "score": -5 },
+      { "text": "4 - 8", "score": -5 },
+      { "text": "> 8", "score": -5 }
     ]
   }
 ]

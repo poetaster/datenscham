@@ -1,0 +1,11 @@
+{
+  "intro": {
+    "title": "Wie sicher ist<br> dein digitales ich?",
+    "claim": "Errechne jetzt anhand acht kurzer Fragen deinen ganz persönlichen Datenschutzscore."
+  },
+  "btns": {
+    "start": "Check starten",
+    "next": "Weiter"
+  }
+
+}

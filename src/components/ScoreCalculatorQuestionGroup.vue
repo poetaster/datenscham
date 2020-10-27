@@ -1,24 +1,25 @@
 <template>
-  <section class="question-group">
+  <section class="question-group" :id="`question-${data.id}`">
     <h3 class="question-group__headline">{{ data.title }}</h3>
     <template v-if="isMissing"><p class="error-text">Fill me out</p></template>
     <div class="question-group__answers" :class="{'error': isMissing}">
-      <label
-        v-for="(answer, index) in data.answers"
-        :key="index"
-        class="answer-group"
-      >
+      <div v-for="(answer, index) in data.answers">
         <input
           v-model="score"
           :checked="score === answer.score"
           :value="answer.score"
-          :name="data.id"
-          :id="`${data.id}_${index}`"
+          :name="`question_${data.id}_${index}`"
+          :id="`question_${data.id}_${index}`"
           type="radio"
           class="answer-group__input"
         />
-        <span class="answer-group__text">{{ answer.text }}</span>
-      </label>
+        <label
+          :key="index"
+          class="answer-group"
+          :for="`question_${data.id}_${index}`">
+          <span class="answer-group__text">{{ answer.text }}</span>
+        </label>
+      </div>
     </div>
   </section>
 </template>
@@ -61,11 +62,53 @@ export default {
 </script>
 
 <style>
- .error {
-   border: red 2px solid
+ .question-group {
+   height: 50vh;
+ }
+ .question-group__headline {
+   padding: .9rem 0 .8rem;
+    background-color: var(--copy);
+    color: var(--primary-color);
+    border-radius: 2px;
+    text-align: center;
  }
 
- .error-text {
-   color: red
+ .question-group__answers {
+   columns: 2;
+   column-gap: 0.8rem;
+ }
+
+ .answer-group {
+   position: relative;
+   z-index: 1;
+   display: block;
+   margin-bottom: .8rem;
+   padding: .9rem 0 .9rem;
+   cursor: pointer;
+   background-color: #e5e5e5;
+   text-align: center;
+   font-size: 1.2em;
+   color: var(--primary-color);
+   transition: transform 200ms ease-in-out;
+ }
+ .answer-group:hover,
+ .answer-group:active {
+   transform: scale(0.95)
+ }
+
+ .answer-group__input {
+   visibility: hidden;
+   clip: rect(0 0 0 0);
+   clip-path: inset(50%);
+   height: 1px;
+   overflow: hidden;
+   position: absolute;
+   white-space: nowrap;
+   width: 1px;
+   z-index: -1;
+ }
+
+ .answer-group__input:checked ~ .answer-group {
+   background-color: var(--copy);
  }
 </style>

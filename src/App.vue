@@ -60,7 +60,7 @@
  }
 
  .app {
-   max-width: 800px;
+   max-width: 860px;
    margin: 2rem auto;
    padding: 0 1.4rem;
  }

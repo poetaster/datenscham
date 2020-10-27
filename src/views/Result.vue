@@ -2,7 +2,7 @@
   <div id="result">
     <h1>Dein Score</h1>
     <template v-if="$root.$data.score">
-      <p>{{ $root.$data.score }}</p>
+      <p class="result-score">{{ $root.$data.score }}</p>
     </template>
     <aside>
       Spenden widget
@@ -33,4 +33,7 @@
 </script>
 
 <style>
+  .result-score {
+  font-size: 4rem;
+  }
 </style>

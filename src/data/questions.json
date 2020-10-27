@@ -6,7 +6,7 @@
       { "text": "Firefox", "score": 3 },
       { "text": "Chrome", "score": 2 },
       { "text": "Safari", "score": 0 },
-      { "text": "Andere", "score": 0 }
+      { "text": "Andere", "score": 5 }
     ]
   },
   {
@@ -16,10 +16,10 @@
       { "text": "Google", "score": 10 },
       { "text": "Bing", "score": 5 },
       { "text": "Yahoo", "score": 0 },
-      { "text": "Ecosia", "score": 0 },
-      { "text": "Startpage", "score": 0 },
-      { "text": "DuckDuckGo", "score": 0 },
-      { "text": "Andere", "score": 0 }
+      { "text": "Ecosia", "score": 3 },
+      { "text": "Startpage", "score": 4 },
+      { "text": "DuckDuckGo", "score": 6 },
+      { "text": "Andere", "score": 9 }
     ]
   },
   {
@@ -28,8 +28,8 @@
     "answers": [
       { "text": "täglich", "score": 10 },
       { "text": "wöchentlich", "score": -5 },
-      { "text": "monatlich", "score": -5 },
-      { "text": "nie", "score": -5 }
+      { "text": "monatlich", "score": 5 },
+      { "text": "nie", "score": -6 }
     ]
   },
   {
@@ -64,51 +64,51 @@
     "answers": [
       { "text": "WhatsApp", "score": 10 },
       { "text": "Telegram", "score": -5 },
-      { "text": "Facebook Messenger", "score": -5 },
-      { "text": "Signal", "score": -5 },
-      { "text": "Andere", "score": -5 }
-    ]
-  },
-  {
-    "id": 7,
-    "title": "Welche Social Media Kanäle nutzt Du hauptsächlich?",
-    "answers": [
-      { "text": "Twitter", "score": 10 },
-      { "text": "Facebook", "score": -5 },
-      { "text": "Instagram", "score": -5 },
-      { "text": "TikTok", "score": -5 },
-      { "text": "Mastodon", "score": -5 },
-      { "text": "Andere", "score": -5 }
+      { "text": "Facebook Messenger", "score": 3 },
+      { "text": "Signal", "score": 7 },
+      { "text": "Andere", "score": 4 }
     ]
   },
   {
     "id": 8,
-    "title": "Welchen Messanger benutzt Du hauptsächlich?",
+    "title": "Welche Social Media Kanäle nutzt Du hauptsächlich?",
     "answers": [
-      { "text": "WhatsApp", "score": 10 },
-      { "text": "Telegram", "score": -5 },
-      { "text": "Facebook Messenger", "score": -5 },
-      { "text": "Signal", "score": -5 }
+      { "text": "Twitter", "score": 1 },
+      { "text": "Facebook", "score": 3 },
+      { "text": "Instagram", "score": 5 },
+      { "text": "TikTok", "score": -3 },
+      { "text": "Mastodon", "score": -5 },
+      { "text": "Andere", "score": -8 }
     ]
   },
   {
     "id": 9,
-    "title": "Wieviel Prozent deiner Online-Bestellungen hast Du bei Amazon getätigt?",
+    "title": "Welchen Messenger benutzt Du hauptsächlich?",
     "answers": [
-      { "text": "0%", "score": 10 },
-      { "text": "1% - 25%", "score": 10 },
-      { "text": "26% - 50%", "score": -5 },
-      { "text": "51% - 75%", "score": -5 },
-      { "text": "76% - 100%", "score": -5 }
+      { "text": "WhatsApp", "score": 10 },
+      { "text": "Telegram", "score": -5 },
+      { "text": "Facebook Messenger", "score": -2 },
+      { "text": "Signal", "score": -8 }
     ]
   },
   {
     "id": 10,
+    "title": "Wieviel Prozent deiner Online-Bestellungen hast Du bei Amazon getätigt?",
+    "answers": [
+      { "text": "0%", "score": 10 },
+      { "text": "1% - 25%", "score": 13 },
+      { "text": "26% - 50%", "score": -5 },
+      { "text": "51% - 75%", "score": -8 },
+      { "text": "76% - 100%", "score": 2 }
+    ]
+  },
+  {
+    "id": 11,
     "title": "Wieviele Stunden am Tag verbringst du online (alle Aktivitäten zusammen)?",
     "answers": [
       { "text": "0 - 2", "score": 10 },
-      { "text": "2 - 4", "score": -5 },
-      { "text": "4 - 8", "score": -5 },
+      { "text": "2 - 4", "score": 2 },
+      { "text": "4 - 8", "score": 3 },
       { "text": "> 8", "score": -5 }
     ]
   }

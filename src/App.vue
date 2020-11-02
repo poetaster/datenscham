@@ -1,7 +1,11 @@
 <template>
   <div id="app" class="app">
     <app-header />
-    <router-view></router-view>
+    <transition
+      :name="transitionName"
+      mode="out-in">
+      <router-view></router-view>
+    </transition>
     <app-footer />
   </div>
 </template>
@@ -17,32 +21,49 @@
      AppFooter,
      AppHeader
    },
+   watch: {
+     '$route' (to, from) {
+       const toDepth = to.path.split('/').length
+       const fromDepth = from.path.split('/').length
+       //console.log(to.path, from.path, toDepth, fromDepth)
+       this.transitionName = toDepth < fromDepth ? 'slide-right' : 'slide-left'
+     }
+   },
    data() {
      return {
+       transitionName: 'slide-left'
        //copy: Copy
      }
    },
    methods: {
 
-   }
+   },
  }
 </script>
 
 <style>
- :root {
-   --primary-color: #0a9eff;
-   --copy: #fff;
+:root {
+  --primary-color: #0a9eff;
+  --copy: #fff;
+}
+
+@font-face {
+  font-family: 'Asap';
+  src: url('/fonts/asap-medium-webfont.woff2') format('woff2'),
+       url('/fonts/asap-medium-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
  }
 
  @font-face {
-   font-family: 'Asap';
-   src: url('/fonts/asap-medium-webfont.woff2') format('woff2'),
-   url('/fonts/asap-medium-webfont.woff') format('woff');
-   font-weight: normal;
+   font-family: 'AsapCondensed';
+   src: url('/fonts/asap-condensed-semibold-webfont.woff2') format('woff2'),
+   url('/fonts/asap-condensed-semibold-webfont.woff') format('woff');
+   font-weight: 600;
    font-style: normal;
  }
 
- *, *:before, *:after {
+*, *:before, *:after {
    box-sizing: border-box;
  }
 
@@ -65,33 +86,89 @@
    padding: 0 1.4rem;
  }
 
- .btn-next {
+ .btn,
+ .btn-next,
+ .btn-back{
    position: relative;
    display: inline-block;
    background-color: var(--copy);
    color: var(--primary-color);
-   padding: .5em 3em;
+   padding: .6em 3em;
    text-decoration: none;
+   font: inherit;
+   border: 0;
    font-size: 1.2em;
+   height: 60px;
    transition: transform 200ms ease-in-out;
+   cursor: pointer;
  }
  .btn-next:after {
    content: "";
    position: absolute;
    top: 0;
-   right: -1.2em;
+   right: -1.25em;
    width: 0;
    height: 0;
-   border-top: 28px solid transparent;
-   border-bottom: 28px solid transparent;
-   border-left: 29px solid var(--copy);
+   border-top: 30px solid transparent;
+   border-bottom: 30px solid transparent;
+   border-left: 30px solid var(--copy);
  }
+ .btn-back:after {
+   content: "";
+   position: absolute;
+   top: 0;
+   left: -1.25em;
+   width: 0;
+   height: 0;
+   border-top: 30px solid transparent;
+   border-bottom: 30px solid transparent;
+   border-right: 30px solid var(--copy);
+ }
+ .btn:hover,
+ .btn:active,
  .btn-next:hover,
- .btn-next:active {
+ .btn-next:active,
+ .btn-back:hover,
+ .btn-back:active {
    transform: scale(0.97)
  }
  .center-helper {
    text-align: center
+ }
+
+
+ .slither-enter-active, .slither-leave-active {
+   transition: transform 1s;
+ }
+
+ .slither-enter, {
+   transform: translateX(-100%);
+ }
+
+ .slither-leave-to  {
+   transform: translateX(100%);
+ }
+
+ .slither-enter-to, .slither-leave {
+   transform: translateX(0);
+ }
+
+ .slide-left-enter-active,
+ .slide-left-leave-active,
+ .slide-right-enter-active,
+ .slide-right-leave-active {
+   transition: all .75s cubic-bezier(.55,0,.1,1);
+ }
+
+ .slide-left-enter, .slide-right-leave-active {
+   opacity: 0;
+   -webkit-transform: translate(100px, 0);
+   transform: translate(100px, 0);
+ }
+ .slide-left-leave-active, .slide-right-enter {
+   opacity: 0;
+   -webkit-transform: translate(-100px, 0);
+   transform: translate(-100px, 0);
  }
 
 </style>

@@ -14,12 +14,12 @@ export default new Router({
             component: Home
         },
         {
-            path: '/quiz',
+            path: '/quiz/',
             name: 'quiz',
             component: Quiz
         },
         {
-            path: '/score',
+            path: '/score/',
             name: 'result',
             component: Result
         }

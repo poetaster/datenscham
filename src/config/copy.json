@@ -1,11 +1,16 @@
 {
   "intro": {
     "title": "Wie sicher ist<br> dein digitales ich?",
-    "claim": "Errechne jetzt anhand acht kurzer Fragen deinen ganz persönlichen Datenschutzscore."
+    "claim": "Errechne jetzt anhand zehn kurzer Fragen deinen ganz persönlichen Datenschutzscore."
+  },
+  "result": {
+    "your_score": "Dein Score"
   },
   "btns": {
     "start": "Check starten",
-    "next": "Weiter"
+    "back": "zurück",
+    "next": "weiter",
+    "again": "nochmal"
   }
 
 }

@@ -4,11 +4,12 @@
       v-for="question in questions"
       :key="question.id"
       :data="question"
+      :questionsCount="questions.length"
       @answerClicked="onAnswerClick"
       :missingQ="missingQ"
     />
-    <div class="score-calculator__score-container">
-      <button data-test="button-emit" @click="emitScore">
+    <div class="score-calculator__score-container center-helper">
+      <button data-test="button-emit" @click="emitScore" class="btn-next">
         {{ buttonText }}
       </button>
     </div>

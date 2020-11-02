@@ -9,7 +9,9 @@
       :missingQ="missingQ" />
 
     <template v-if="error">
-      {{error}}
+      <div class="center-helper">
+        {{error}}
+      </div>
     </template>
 
     <template v-if="result">
@@ -40,7 +42,7 @@
      showScore(evt) {
        this.error = undefined
        this.$root.$data.score = evt
-       return this.$router.push({name: 'result'})
+       return this.$router.push({path: '/score/'})
        //this.result = `Dein Score ist ${evt}.`
      },
      showError(evt) {
@@ -50,7 +52,8 @@
        this.error = `Noch ${evt.length} Fragen unbeantwortet.`
      }
    }
- }
+}
+
 </script>
 
 <style>

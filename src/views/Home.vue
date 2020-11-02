@@ -3,7 +3,7 @@
     <h1 class="main-title" v-html="copy.intro.title"></h1>
     <p class="main-claim">{{copy.intro.claim}}</p>
     <div class="center-helper">
-      <router-link :to="{name: 'quiz'}" class="btn-next">{{ copy.btns.start }}</router-link>
+      <router-link :to="{path: '/quiz/'}" class="btn-next">{{ copy.btns.start }}</router-link>
     </div>
   </div>
 </template>
@@ -26,15 +26,15 @@
  }
 </script>
 
-<style scoped>
+<style>
  .main-title {
-   font-size: 5.8rem;
+   font-family: 'AsapCondensed', ".SFNSText-Regular","San Francisco","Roboto","Segoe UI","Helvetica Neue","Lucida Grande", sans-serif;
+   font-size: 6.5rem;
    text-transform: uppercase;
-   letter-spacing: -6px;
    transform: rotateZ(-5deg);
    line-height: 1;
    text-shadow: 0px 0px 10px white;
-   margin-bottom: 7rem;
+   margin-bottom: 9rem;
  }
  .main-claim {
    margin-bottom: 2rem;

@@ -21,32 +21,50 @@
         </label>
       </div>
     </div>
+    <div class="question-group__nav">
+      <div class="nav__back">
+        <template v-if="(data.id -1) > 0">
+          <a href="#" class="btn-back">{{ copy.btns.back}}  {{data.id -1}}</a>
+        </template>
+      </div>
+      <div class="nav__next">
+        <template v-if="(data.id +1) <= questionsCount">
+          <a href="#" class="btn-next">{{ copy.btns.next}} {{data.id +1}}</a>
+        </template>
+      </div>
+    </div>
   </section>
 </template>
 
 <script>
-export default {
-  name: 'score-calculator-question-group',
-  data() {
-    return {
-      score: null,
-      isMissing: false
-    }
-  },
-  props: {
-    data: {
-      type: Object,
-      required: true,
-    },
-    missingQ: {
-      type: Array
-    }
-  },
-  watch: {
-    score(score) {
-      this.$emit('answerClicked', { score, id: this.data.id })
-    }
-  },
+ import Copy from '../config/copy.json'
+
+ export default {
+   name: 'score-calculator-question-group',
+   data() {
+     return {
+       score: null,
+       isMissing: false,
+       copy: Copy
+     }
+   },
+   props: {
+     data: {
+       type: Object,
+       required: true,
+     },
+     missingQ: {
+       type: Array
+     },
+     questionsCount: {
+       type: Number
+     }
+   },
+   watch: {
+     score(score) {
+       this.$emit('answerClicked', { score, id: this.data.id })
+     }
+   },
    methods: {
      isStillMissing() {
        const id = this.data.id
@@ -57,8 +75,11 @@ export default {
          this.isMissing = false
        }
      }
+   },
+   computed: {
+
    }
-}
+ }
 </script>
 
 <style>
@@ -66,11 +87,11 @@ export default {
    height: 50vh;
  }
  .question-group__headline {
-   padding: .9rem 0 .8rem;
-    background-color: var(--copy);
-    color: var(--primary-color);
-    border-radius: 2px;
-    text-align: center;
+   padding: .9rem 0.9rem .8rem;
+   background-color: var(--copy);
+   color: var(--primary-color);
+   border-radius: 2px;
+   text-align: center;
  }
 
  .question-group__answers {
@@ -78,14 +99,17 @@ export default {
    column-gap: 0.8rem;
  }
 
+ .question-group__answers > div {
+   margin-bottom: 0.8rem;
+ }
+
  .answer-group {
    position: relative;
    z-index: 1;
    display: block;
-   margin-bottom: .8rem;
    padding: .9rem 0 .9rem;
    cursor: pointer;
-   background-color: #e5e5e5;
+   background-color: lightgrey;
    text-align: center;
    font-size: 1.2em;
    color: var(--primary-color);
@@ -110,5 +134,18 @@ export default {
 
  .answer-group__input:checked ~ .answer-group {
    background-color: var(--copy);
+ }
+
+ .question-group__nav {
+   margin-top: 0.8rem;
+   columns: 2;
+   column-gap: 0.8rem;
+ }
+ .nav__back {
+   min-height: 1rem;
+   text-align: right
+ }
+ .nav__next {
+   text-align: left;
  }
 </style>

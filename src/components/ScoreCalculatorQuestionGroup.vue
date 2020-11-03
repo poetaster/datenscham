@@ -99,8 +99,19 @@
 
 <style>
  .question-group {
-   padding-top: 10vh;
-   height: 60vh;
+   padding-top: 5vh;
+   padding-bottom: 25vh;
+ }
+ @media (min-width: 600px) {
+   .question-group {
+     padding-top: 10vh;
+     padding-bottom: 0;
+     height: 60vh;
+   }
+   .question-group__answers {
+     columns: 2;
+     column-gap: 0.8rem;
+   }
  }
  .question-group__headline {
    padding: .9rem 0.9rem .8rem;
@@ -108,11 +119,6 @@
    color: var(--primary-color);
    border-radius: 2px;
    text-align: center;
- }
-
- .question-group__answers {
-   columns: 2;
-   column-gap: 0.8rem;
  }
 
  .question-group__answers > div {

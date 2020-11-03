@@ -1,7 +1,8 @@
 <template>
   <div class="score-calculator">
+
+
     <div class="quiz__overflow">
-      <div></div>
       <score-calculator-question-group
         v-for="question in questions"
         :key="question.id"
@@ -95,5 +96,22 @@
    overflow-y: scroll;
    scrollbar-width: none;
    position: relative;
+ }
+ .blanks {
+   display: flex;
+   justify-content: space-between;
+   margin-bottom: 0.8rem;
+ }
+ .blank {
+   height: 2px;
+   display: inline-block;
+   background-color: white;
+   flex: 0 0 8%;
+ }
+
+ @media (min-width: 600px) {
+   .quiz__overflow {
+
+   }
  }
 </style>

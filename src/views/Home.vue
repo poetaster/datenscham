@@ -29,12 +29,18 @@
 <style>
  .main-title {
    font-family: 'AsapCondensed', ".SFNSText-Regular","San Francisco","Roboto","Segoe UI","Helvetica Neue","Lucida Grande", sans-serif;
-   font-size: 6.5rem;
+   font-size: 3.5rem;
    text-transform: uppercase;
    transform: rotateZ(-5deg);
    line-height: 1;
    text-shadow: 0px 0px 10px white;
    margin-bottom: 9rem;
+
+ }
+ @media (min-width: 600px) {
+   .main-title {
+     font-size: 6.5rem;
+   }
  }
  .main-claim {
    margin-bottom: 2rem;

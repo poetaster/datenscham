@@ -59,65 +59,72 @@
        url('/fonts/asap-medium-webfont.woff') format('woff');
   font-weight: normal;
   font-style: normal;
- }
+}
 
- @font-face {
-   font-family: 'AsapCondensed';
-   src: url('/fonts/asap-condensed-semibold-webfont.woff2') format('woff2'),
-   url('/fonts/asap-condensed-semibold-webfont.woff') format('woff');
-   font-weight: 600;
-   font-style: normal;
- }
+@font-face {
+  font-family: 'AsapCondensed';
+  src: url('/fonts/asap-condensed-semibold-webfont.woff2') format('woff2'),
+       url('/fonts/asap-condensed-semibold-webfont.woff') format('woff');
+  font-weight: 600;
+  font-style: normal;
+}
 
 *, *:before, *:after {
-   box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--primary-color);
+  color: var(--copy);
+  font-family: "Asap",".SFNSText-Regular","San Francisco","Roboto","Segoe UI","Helvetica Neue","Lucida Grande", sans-serif;
+  font-size: 20px;
+  margin: 0;
+  overflow-x: hidden;
+}
+
+a {
+  color: var(--copy);
+}
+
+.app {
+  height: 100vh;
+  overflow-x: hidden;
+}
+.wrapper {
+  max-width: 860px;
+  padding: 0 1.4rem;
+  margin: 2rem auto;
+}
+
+.btn,
+.btn-next,
+.btn-back {
+  position: relative;
+  display: inline-block;
+  background-color: var(--copy);
+  color: var(--primary-color);
+  padding: .5em 0.4em;
+  text-decoration: none;
+  font: inherit;
+  border: 0;
+  font-size: 1.2em;
+  height: 60px;
+  transition: transform 200ms ease-in-out;
+  cursor: pointer;
+  max-width: 70vw;
+}
+ @media (min-width: 600px) {
+   .btn,
+   .btn-next,
+   .btn-back {
+     padding: 0.6rem 3rem;
+     line-height: 1.7;
+   }
  }
 
- body {
-   background-color: var(--primary-color);
-   color: var(--copy);
-   font-family: "Asap",".SFNSText-Regular","San Francisco","Roboto","Segoe UI","Helvetica Neue","Lucida Grande", sans-serif;
-   font-size: 20px;
-   margin: 0;
-   overflow-x: hidden;
- }
-
- a {
-   color: var(--copy);
- }
-
- .app {
-   height: 100vh;
-   overflow: hidden;
- }
- .wrapper {
-   max-width: 860px;
-   padding: 0 1.4rem;
-   margin: 2rem auto;
- }
- .mainview {
-
- }
-
- .btn,
- .btn-next,
- .btn-back{
-   position: relative;
-   display: inline-block;
-   background-color: var(--copy);
-   color: var(--primary-color);
-   padding: .6em 3em;
-   text-decoration: none;
-   font: inherit;
-   border: 0;
-   font-size: 1.2em;
-   height: 60px;
-   transition: transform 200ms ease-in-out;
-   cursor: pointer;
- }
- .btn-next:after {
-   content: "";
-   position: absolute;
+.btn-next:after {
+  content: "";
+  position: absolute;
    top: 0;
    right: -1.25em;
    width: 0;

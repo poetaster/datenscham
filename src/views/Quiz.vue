@@ -1,6 +1,7 @@
 <template>
-  <div id="quiz">
-    <p>Errechne jetzt anhand acht kurzer Fragen deinen ganz persönlichen Datenschutzscore.</p>
+  <div id="quiz" class="mainview">
+    <p class="main-claim">{{copy.intro.claim}}</p>
+
     <score-calculator
       :questions="sample"
       :buttonText="text"
@@ -10,17 +11,18 @@
 
     <template v-if="error">
       <div class="center-helper">
-        {{error}}
+        <p>{{error}}</p>
       </div>
     </template>
 
     <template v-if="result">
-      {{result}}
+      <p>{{result}}</p>
     </template>
   </div>
 </template>
 
 <script>
+ import Copy from '../config/copy.json'
  import ScoreCalculator from '@/components/ScoreCalculator.vue'
  import questions from '@/data/questions.json'
 
@@ -35,7 +37,8 @@
        text: "Score errechnen",
        error: undefined,
        missingQ: [],
-       result: undefined
+       result: undefined,
+       copy: Copy
      }
    },
    methods: {
@@ -43,10 +46,8 @@
        this.error = undefined
        this.$root.$data.score = evt
        return this.$router.push({path: '/score/'})
-       //this.result = `Dein Score ist ${evt}.`
      },
      showError(evt) {
-       //debugger
        console.log(evt)
        this.missingQ = evt
        this.error = `Noch ${evt.length} Fragen unbeantwortet.`
@@ -55,6 +56,3 @@
 }
 
 </script>
-
-<style>
-</style>

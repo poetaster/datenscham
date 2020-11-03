@@ -1,5 +1,5 @@
 <template>
-  <div id="home">
+  <div id="home" class="mainview">
     <h1 class="main-title" v-html="copy.intro.title"></h1>
     <p class="main-claim">{{copy.intro.claim}}</p>
     <div class="center-helper">

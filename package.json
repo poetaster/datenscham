@@ -24,6 +24,7 @@
     "prepublishOnly": "npm run lint && npm run test:unit && npm run bundle"
   },
   "dependencies": {
+    "smoothscroll-polyfill": "^0.4.4",
     "vue": "^2.6.11",
     "vue-router": "^3.4.7"
   },

@@ -1,5 +1,5 @@
 <template>
-  <div id="result">
+  <div id="result" class="mainview">
     <h1 class="main-title">{{ copy.result.your_score}}</h1>
     <template v-if="$root.$data.score">
       <p class="result-score">{{ $root.$data.score }}</p>

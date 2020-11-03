@@ -1,16 +1,19 @@
 <template>
   <div id="app" class="app">
-    <app-header />
-    <transition
-      :name="transitionName"
-      mode="out-in">
-      <router-view></router-view>
-    </transition>
-    <app-footer />
+    <div class="wrapper">
+      <app-header />
+      <transition
+        :name="transitionName"
+        mode="out-in">
+        <router-view></router-view>
+      </transition>
+      <app-footer />
+    </div>
   </div>
 </template>
 
 <script>
+ import smoothscroll from 'smoothscroll-polyfill';
  import AppFooter from '@/components/Footer'
  import AppHeader from '@/components/Header'
 
@@ -28,6 +31,9 @@
        //console.log(to.path, from.path, toDepth, fromDepth)
        this.transitionName = toDepth < fromDepth ? 'slide-right' : 'slide-left'
      }
+   },
+   created() {
+     smoothscroll.polyfill();
    },
    data() {
      return {
@@ -81,9 +87,16 @@
  }
 
  .app {
+   height: 100vh;
+   overflow: hidden;
+ }
+ .wrapper {
    max-width: 860px;
-   margin: 2rem auto;
    padding: 0 1.4rem;
+   margin: 2rem auto;
+ }
+ .mainview {
+
  }
 
  .btn,

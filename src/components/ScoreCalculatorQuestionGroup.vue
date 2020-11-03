@@ -1,7 +1,7 @@
 <template>
   <section class="question-group" :id="`question-${data.id}`">
     <h3 class="question-group__headline">{{ data.title }}</h3>
-    <template v-if="isMissing"><p class="error-text">Fill me out</p></template>
+
     <div class="question-group__answers" :class="{'error': isMissing}">
       <div v-for="(answer, index) in data.answers">
         <input
@@ -24,12 +24,18 @@
     <div class="question-group__nav">
       <div class="nav__back">
         <template v-if="(data.id -1) > 0">
-          <a href="#" class="btn-back">{{ copy.btns.back}}  {{data.id -1}}</a>
+          <a
+            :href="`#question-${data.id -1}`"
+            class="btn-back"
+            @click.prevent="scrollMeThere">{{ copy.btns.back}}</a>
         </template>
       </div>
       <div class="nav__next">
         <template v-if="(data.id +1) <= questionsCount">
-          <a href="#" class="btn-next">{{ copy.btns.next}} {{data.id +1}}</a>
+          <a
+            :href="`#question-${data.id + 1}`"
+            class="btn-next"
+            @click.prevent="scrollMeThere">{{ copy.btns.next}}</a>
         </template>
       </div>
     </div>
@@ -74,6 +80,15 @@
        } else {
          this.isMissing = false
        }
+     },
+     scrollMeThere(ev) {
+       const elemID = ev.target.href.split('/#')[1]
+       let newElem = document.querySelector('#' + elemID)
+       const overFlow = document.querySelector('.quiz__overflow')
+
+       overFlow.scroll({top: newElem.offsetTop,
+                        left: 0,
+                        behavior: 'smooth'})
      }
    },
    computed: {
@@ -84,7 +99,8 @@
 
 <style>
  .question-group {
-   height: 50vh;
+   padding-top: 10vh;
+   height: 60vh;
  }
  .question-group__headline {
    padding: .9rem 0.9rem .8rem;

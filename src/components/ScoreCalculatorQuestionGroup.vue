@@ -89,6 +89,7 @@
        overFlow.scroll({top: newElem.offsetTop,
                         left: 0,
                         behavior: 'smooth'})
+       this.$router.push({hash: '#' + elemID})
      }
    },
    computed: {

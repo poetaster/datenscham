@@ -11,6 +11,10 @@
     "back": "zurück",
     "next": "weiter",
     "again": "nochmal"
+  },
+  "footer": {
+    "data": "Datenschutzhinweise",
+    "imprint": "Impressum",
+    "data_claim": "Die Ergbnisse dieses Test werden von uns NICHT gespeichert, ausgewertet oder sonstwie weiterverwendet. Deine Daten gehören Dir!"
   }
-
 }

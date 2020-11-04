@@ -3,6 +3,7 @@
     <h1 class="main-title">{{ copy.result.your_score}}</h1>
     <template v-if="$root.$data.score">
       <p class="result-score">{{ $root.$data.score }}</p>
+      <p>{{ scoreEvalutation  }}</p>
     </template>
     <aside id="twingle"></aside>
     <div class="center-helper">
@@ -46,6 +47,28 @@
          elem.id = `twingle-public-embed-${id}`
          t.appendChild(elem);
        }
+     }
+   },
+   computed: {
+     scoreEvalutation() {
+       const score = this.$root.$data.score
+       let out = '';
+       if (this.between(score, 0, 30)) {
+         out = 'Niedrig'
+       } else if (this.between(score, 31, 70)) {
+         out = 'Mittel'
+       } else if (this.between(score, 71, 100)) {
+         out = 'Hoch'
+       } else {
+         out = 'Out of range?! Das sollte nicht sein'
+       }
+
+       return out
+     }
+   },
+   methods: {
+     between(x, min, max) {
+       return x >= min && x <= max;
      }
    }
  }

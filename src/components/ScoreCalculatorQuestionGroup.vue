@@ -110,7 +110,7 @@
  }
  @media (min-width: 600px) {
    .question-group {
-     padding-top: 10vh;
+     padding-top: 5vh;
      padding-bottom: 0;
      height: 100vh;
    }

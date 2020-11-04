@@ -33,7 +33,7 @@ header {
 }
 @media (min-width: 600px) {
   header {
-    margin-bottom: 7rem;
+    margin-bottom: 5rem;
   }
 }
 </style>

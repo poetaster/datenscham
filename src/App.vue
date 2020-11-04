@@ -88,13 +88,19 @@
  }
 
  .app {
-   height: 100vh;
-   overflow-x: hidden;
+
  }
  .wrapper {
    max-width: 860px;
    padding: 0 1.4rem;
-   margin: 2rem auto;
+   margin-right: auto;
+   margin-left: auto;
+   display: flex;
+   flex-direction: column;
+   height: 100%;
+ }
+ .mainview {
+   flex-grow: 1;
  }
 
  .btn,

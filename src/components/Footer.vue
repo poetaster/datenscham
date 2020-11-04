@@ -1,6 +1,5 @@
 <template>
   <div class="footer">
-    <hr>
     <footer class="footer__nav">
       <a href="#datenschutzhinweise">{{copy.footer.data}}</a>
       <a href="#impressum">{{copy.footer.imprint}}</a>
@@ -25,16 +24,15 @@
   }
 </script>
 <style>
- hr {
-   border: 1px solid var(--copy);
-   border-bottom: none;
- }
  .footer {
    margin-top: 2rem;
+   padding: 0.5rem 0;
+   border-top: 1px solid var(--copy);
  }
  .footer__nav {
    display: flex;
    justify-content: space-between;
+   flex-wrap: wrap;
  }
 
  .footer__nav a {

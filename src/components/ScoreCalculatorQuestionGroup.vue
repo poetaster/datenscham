@@ -85,10 +85,15 @@
        const elemID = ev.target.href.split('/#')[1]
        let newElem = document.querySelector('#' + elemID)
        const overFlow = document.querySelector('.quiz__overflow')
+       const opt = {top: newElem.offsetTop,
+                    left: 0,
+                    behavior: 'smooth'}
+       if (window.innerWidth > 600) {
+         overFlow.scrollTo(opt)
+       } else {
+         window.scrollTo(opt)
+       }
 
-       overFlow.scroll({top: newElem.offsetTop,
-                        left: 0,
-                        behavior: 'smooth'})
        this.$router.push({hash: '#' + elemID})
      }
    },
@@ -107,7 +112,7 @@
    .question-group {
      padding-top: 10vh;
      padding-bottom: 0;
-     height: 60vh;
+     height: 100vh;
    }
    .question-group__answers {
      columns: 2;

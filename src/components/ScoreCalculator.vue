@@ -92,10 +92,7 @@
 
 <style scoped>
  .quiz__overflow {
-   height: 60vh;
-   overflow-y: scroll;
-   scrollbar-width: none;
-   position: relative;
+
  }
  .blanks {
    display: flex;
@@ -111,7 +108,10 @@
 
  @media (min-width: 600px) {
    .quiz__overflow {
-
+     height: 60vh;
+     overflow-y: scroll;
+     scrollbar-width: none;
+     position: relative;
    }
  }
 </style>

@@ -121,7 +121,7 @@
  }
  @media (min-width: 600px) {
    .question-group {
-     padding-top: 5vh;
+     padding-top: 1vh;
      padding-bottom: 0;
      height: 100vh;
    }
@@ -129,6 +129,14 @@
      display: flex;
      justify-content: space-between;
      flex-wrap: wrap;
+   }
+ }
+ @media (min-width: 1440px) {
+   .question-group {
+     padding-top: 5vh;
+   }
+   .answer-group {
+     padding: .9rem 0;
    }
  }
  .question-group__headline {
@@ -149,7 +157,7 @@
    position: relative;
    z-index: 1;
    display: block;
-   padding: .9rem 0 .9rem;
+   padding: .8rem 0;
    cursor: pointer;
    text-align: center;
    box-shadow: 3px 7px 5px 0px rgba(0,0,0,0.25);

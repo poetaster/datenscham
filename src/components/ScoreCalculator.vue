@@ -111,5 +111,5 @@
    .quiz__overflow::-webkit-scrollbar {
      width: 0
    }
-}
+ }
 </style>

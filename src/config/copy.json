@@ -15,6 +15,7 @@
   "footer": {
     "data": "Datenschutzhinweise",
     "imprint": "Impressum",
-    "data_claim": "Die Ergbnisse dieses Test werden von uns NICHT gespeichert, ausgewertet oder sonstwie weiterverwendet. Deine Daten gehören Dir!"
+    "data_claim": "Die Ergbnisse dieses Test werden von uns NICHT gespeichert, ausgewertet oder sonstwie weiterverwendet. Deine Daten gehören Dir!",
+    "service": "Ein Service von"
   }
 }

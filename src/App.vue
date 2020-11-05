@@ -9,6 +9,9 @@
       </transition>
       <app-footer />
     </div>
+    <div class="wrapper">
+      <app-legal />
+    </div>
   </div>
 </template>
 
@@ -78,7 +81,6 @@
    background-color: var(--primary-color);
    color: var(--copy);
    font-family: "Asap",".SFNSText-Regular","San Francisco","Roboto","Segoe UI","Helvetica Neue","Lucida Grande", sans-serif;
-   font-size: 20px;
    margin: 0;
    overflow-x: hidden;
  }
@@ -119,13 +121,14 @@
    transition: transform 200ms ease-in-out;
    cursor: pointer;
    max-width: 70vw;
+   line-height: 2;
  }
  @media (min-width: 600px) {
    .btn,
    .btn-next,
    .btn-back {
      padding: 0.6rem 3rem;
-     line-height: 1.7;
+
    }
  }
 
@@ -133,23 +136,23 @@
    content: "";
    position: absolute;
    top: 0;
-   right: -1.25em;
+   right: -1.55em;
    width: 0;
    height: 0;
-   border-top: 30px solid transparent;
-   border-bottom: 30px solid transparent;
-   border-left: 30px solid var(--copy);
+   border-top: 1.6em solid transparent;
+   border-bottom: 1.6em solid transparent;
+   border-left: 1.6em solid var(--copy);
  }
  .btn-back:after {
    content: "";
    position: absolute;
    top: 0;
-   left: -1.25em;
+   left: -1.55em;
    width: 0;
    height: 0;
-   border-top: 30px solid transparent;
-   border-bottom: 30px solid transparent;
-   border-right: 30px solid var(--copy);
+   border-top: 1.6em solid transparent;
+   border-bottom: 1.6em solid transparent;
+   border-right: 1.6em solid var(--copy);
  }
  .btn:hover,
  .btn:active,

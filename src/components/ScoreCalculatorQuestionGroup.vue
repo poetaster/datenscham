@@ -115,8 +115,9 @@
      height: 100vh;
    }
    .question-group__answers {
-     columns: 2;
-     column-gap: 0.8rem;
+     display: flex;
+     justify-content: space-between;
+     flex-wrap: wrap;
    }
  }
  .question-group__headline {
@@ -129,6 +130,7 @@
 
  .question-group__answers > div {
    margin-bottom: 0.8rem;
+   flex: 0 0 49%;
  }
 
  .answer-group {
@@ -137,10 +139,10 @@
    display: block;
    padding: .9rem 0 .9rem;
    cursor: pointer;
-   background-color: lightgrey;
    text-align: center;
-   font-size: 1.2em;
-   color: var(--primary-color);
+   box-shadow: 3px 7px 5px 0px rgba(0,0,0,0.25);
+   border-radius: 4px;
+   border: 2px solid var(--copy);
    transition: transform 200ms ease-in-out;
  }
  .answer-group:hover,
@@ -162,6 +164,7 @@
 
  .answer-group__input:checked ~ .answer-group {
    background-color: var(--copy);
+   color: var(--primary-color);
  }
 
  .question-group__nav {

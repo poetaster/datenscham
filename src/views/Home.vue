@@ -179,6 +179,9 @@
  .main__ask path {
    fill: var(--copy);
  }
+ .btn--start {
+   margin-top: 2rem;
+ }
  @media (min-width: 600px) {
    .main-title {
      font-size: 6.5rem;
@@ -189,7 +192,7 @@
    }
  }
  .main-claim {
-   margin-bottom: 2rem;
+   margin-bottom: 0.6rem;
  }
 
 </style>

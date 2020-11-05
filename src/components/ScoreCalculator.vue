@@ -94,21 +94,17 @@
  .quiz__overflow {
 
  }
- .blanks {
-   display: flex;
-   justify-content: space-between;
-   margin-bottom: 0.8rem;
+
+ .score-calculator {
+   border-top: 1px solid var(--copy);
  }
- .blank {
-   height: 2px;
-   display: inline-block;
-   background-color: white;
-   flex: 0 0 8%;
+ .score-calculator__score-container {
+   border-top: solid 1px currentColor
  }
 
  @media (min-width: 600px) {
    .quiz__overflow {
-     height: 50vh;
+     height: 55vh;
      overflow-y: scroll;
      scrollbar-width: none;
      position: relative;
@@ -116,4 +112,5 @@
    .quiz__overflow::-webkit-scrollbar {
      width: 0
    }
+}
 </style>

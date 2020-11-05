@@ -1,21 +1,16 @@
 <template>
   <div class="footer">
     <p class="footer__notice">{{ copy.footer.data_claim }}</p>
-    <footer class="footer__nav">
-      <a href="#datenschutzhinweise">{{copy.footer.data}}</a>
-      <a href="#impressum">{{copy.footer.imprint}}</a>
-      <a href="https://netzpolitik.org"><logo /></a>
-    </footer>
   </div>
 </template>
 <script>
  import Copy from '@/config/copy'
- import NPLogo from '@/components/Logo'
+ //import NPLogo from '@/components/Logo'
 
   export default {
     name: 'AppFooter',
     components: {
-      logo: NPLogo
+      //logo: NPLogo
     },
     data() {
       return {

@@ -3,10 +3,11 @@
         "id": 1,
         "title": "Welchen Browser benutzt Du?",
         "answers": [
-            { "text": "Firefox", "score": 10 },
-            { "text": "Safari", "score": 4 },
-            { "text": "Chrome", "score": 0 },
-            { "text": "Andere", "score": 5 }
+            { "text": "Firefox", "score": 10.1 },
+            { "text": "Safari", "score": 5 },
+            { "text": "Chrome", "score": 0.1 },
+            { "text": "Edge", "score": 0.2 },
+            { "text": "Brave", "score": 10.2 }
         ]
     },
     {
@@ -14,9 +15,12 @@
         "title": "Welche Suchmaschine benutzt Du hauptsächlich?",
         "answers": [
             { "text": "Google", "score": 0 },
-            { "text": "Startpage", "score": 10 },
+            { "text": "Startpage", "score": 10.1 },
             { "text": "Bing", "score": 3 },
+            { "text": "DuckDuckGo", "score": 10.2 },
+            { "text": "Qwant", "score": 10.3 },
             { "text": "Ecosia", "score": 7 },
+            { "text": "MetaGer", "score": 10.4 },
             { "text": "Andere", "score": 5 }
         ]
     },
@@ -36,8 +40,9 @@
         "answers": [
             { "text": "Google Drive", "score": 0 },
             { "text": "NextCloud", "score": 10 },
-            { "text": "Dropbox", "score": 4 },
-            { "text": "Andere", "score": 5 }
+            { "text": "Dropbox", "score": 5.1 },
+            { "text": "iCloud", "score": 5.2 },
+            { "text": "Welche Cloud?", "score": 5.3 }
         ]
     },
     {
@@ -60,10 +65,11 @@
         "id": 7,
         "title": "Welchen Messenger benutzt Du hauptsächlich?",
         "answers": [
-            { "text": "WhatsApp", "score": -1 },
-            { "text": "Signal", "score": 10 },
+            { "text": "WhatsApp", "score": 0.1 },
+            { "text": "Signal", "score": 10.2 },
             { "text": "Telegram", "score": 4 },
-            { "text": "Facebook Messenger", "score": 0 },
+            { "text": "Facebook Messenger", "score": 0.2 },
+            { "text": "Threma", "score": 10.1 },
             { "text": "Andere", "score": 5 }
         ]
     },
@@ -71,12 +77,14 @@
         "id": 8,
         "title": "Welche Social Media Kanäle nutzt Du hauptsächlich?",
         "answers": [
-            { "text": "TikTok", "score": -1 },
-            { "text": "Facebook", "score": -2 },
-            { "text": "Mastodon", "score": 10 },
-            { "text": "Instagram", "score": -3 },
-            { "text": "Andere", "score": 0 },
-            { "text": "Keine", "score": 11 }
+            { "text": "TikTok", "score": 0.01 },
+            { "text": "Facebook", "score": 0.02 },
+            { "text": "Mastodon", "score": 10.1 },
+            { "text": "Instagram", "score": 0.03 },
+            { "text": "SnapChat", "score": 0.04 },
+            { "text": "YouTube", "score": 0.05 },
+            { "text": "Andere", "score": 0.06 },
+            { "text": "Keine", "score": 10.2 }
         ]
     },
     {

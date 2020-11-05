@@ -122,6 +122,7 @@
    cursor: pointer;
    max-width: 70vw;
    line-height: 2;
+   outline: none;
  }
  @media (min-width: 600px) {
    .btn,

@@ -1,6 +1,8 @@
 <template>
   <section class="question-group" :id="`question-${data.id}`">
-    <h3 class="question-group__headline">{{ data.title }}</h3>
+    <h3 class="question-group__headline">
+      <span class="question-group__count">{{ data.id }}.</span>
+      <span class="question-group__title" >{{ data.title }}</span></h3>
 
     <div class="question-group__answers" :class="{'error': isMissing}">
       <div v-for="(answer, index) in data.answers">
@@ -104,6 +106,15 @@
 </script>
 
 <style>
+ .question-group__count {
+   border-right: 2px solid var(--primary-color);
+   padding: 1rem 1.3rem;
+   margin: -1rem;
+ }
+ .question-group__title {
+   flex-grow: 1;
+ }
+
  .question-group {
    padding-top: 5vh;
    padding-bottom: 25vh;
@@ -126,6 +137,7 @@
    color: var(--primary-color);
    border-radius: 2px;
    text-align: center;
+   display: flex;
  }
 
  .question-group__answers > div {

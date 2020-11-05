@@ -1,7 +1,6 @@
 <template>
   <div class="score-calculator">
 
-
     <div class="quiz__overflow">
       <score-calculator-question-group
         v-for="question in questions"

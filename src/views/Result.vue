@@ -7,13 +7,14 @@
         <template v-if="$root.$data.score">
           <p class="result-score">{{ score }}</p>
           <p>{{ scoreEvalutation  }}</p>
-        </template
+        </template>
         <div class="center-helper">
           <router-link :to="{ path: '/quiz/' }" class="btn">{{ copy.btns.again }}</router-link>
         </div>
-        <aside class="result-donation" id="twingle"></aside>
-      </div>
 
+      </div>
+      <aside class="result-donation" id="twingle"></aside>
+    </div>
   </div>
 </template>
 

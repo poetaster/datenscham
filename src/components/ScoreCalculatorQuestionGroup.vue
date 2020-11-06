@@ -113,6 +113,7 @@
  }
  .question-group__title {
    flex-grow: 1;
+   padding: 0 1.5rem;
  }
 
  .question-group {

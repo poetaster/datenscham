@@ -2,16 +2,12 @@
   <div id="result" class="mainview">
     <div class="result-wrapper">
       <div class="result-result">
-        <h1 class="main-title">{{ copy.result.your_score}}</h1>
-
-        <template v-if="$root.$data.score">
-          <p class="result-score">{{ score }}</p>
-          <p>{{ scoreEvalutation  }}</p>
-        </template>
-        <div class="center-helper">
-          <router-link :to="{ path: '/quiz/' }" class="btn">{{ copy.btns.again }}</router-link>
-        </div>
-
+        <h1 class="">{{ copy.result.your_score}}:</h1>
+        <p class="result-score">{{ score }} von 10 Punkten</p>
+        <p class="result-eval">
+          {{ copy.result.conclusion }}:<br></br>
+          {{ scoreEvalutation  }}</p>
+        <p class="result-plug">{{ copy.result.plug }}</p>
       </div>
       <aside class="result-donation" id="twingle"></aside>
     </div>
@@ -80,11 +76,11 @@
        const score = this.$root.$data.score
        let out = '';
        if (this.between(score, 0, 30)) {
-         out = 'Niedrig'
+         out = this.copy.result.eval.low
        } else if (this.between(score, 31, 70)) {
-         out = 'Mittel'
+         out = this.copy.result.eval.middle
        } else if (this.between(score, 71, 100)) {
-         out = 'Hoch'
+         out = this.copy.result.eval.high
        } else {
          out = 'Out of range?! Das sollte nicht sein'
        }
@@ -106,9 +102,8 @@
 <style scoped>
 
  .result-score {
-   font-size: 10rem;
-   text-align: center;
-   line-height: 0;
+   font-size: 3.9rem;
+   font-weight: 600;
  }
  #twingle {
    background-color: white;
@@ -118,15 +113,25 @@
  }
  .result-wrapper {
    display: flex;
-   flex-wrap: nowrap;
-   justify-content: space-between
+   flex-wrap: wrap;
+   justify-content: space-between;
+   padding: 2rem 0;
+   border-top: 2px solid white;
+   border-bottom: 2px solid white;
  }
  .result-result {
-   flex: 1 0 60%
+   flex: 1 0 66%;
+   padding-right: 2rem;
  }
  .result-donation {
-   flex: 1 0 30%;
+   flex: 1 0 33%;
    background-color: white;
-
+ }
+ .result-plug {
+   font-size: 0.9rem;
+ }
+ .result-eval {
+   font-size: 1.2rem;
+   font-style: italic;
  }
 </style>

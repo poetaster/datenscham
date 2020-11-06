@@ -4,7 +4,14 @@
     "claim": "Errechne jetzt anhand zehn kurzer Fragen deinen ganz persönlichen Datenschutzscore."
   },
   "result": {
-    "your_score": "Dein Score"
+      "your_score": "Dein Datensicherheitsscore",
+      "conclusion": "Fazit",
+      "plug": "Mit einer Spende schauen wir für Dich genauer hin, recherchieren tiefer und informieren dich jederzeit auf netzpolitik.org über die Ergebnisse unserer Arbeit.",
+      "eval": {
+          "low": "Lorem ipsum dolor sit amet",
+          "middle": "Dein digitaler Fußabdruck ist dir zwar nicht egal, aber so recht hast Du auch keine Lust zu kontrollieren was mit deinen Daten passiert.",
+          "high": "high"
+      }
   },
   "btns": {
     "start": "Check starten",

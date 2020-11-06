@@ -82,6 +82,7 @@
    color: var(--copy);
    font-family: "Asap",".SFNSText-Regular","San Francisco","Roboto","Segoe UI","Helvetica Neue","Lucida Grande", sans-serif;
    margin: 0;
+   hyphens: auto;
    overflow-x: hidden;
  }
 

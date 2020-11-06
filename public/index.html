@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="de">
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -12,14 +12,59 @@
     <link rel="mask-icon" href="<%= BASE_URL %>safari-pinned-tab.svg" color="#5bbad5">
     <meta name="theme-color" content="#0a9eff">
 
-
-
-
     <title>Datenscham.org</title>
+    <meta name="description" content="Wie sicher ist dein digitales ich?">
+
+    <style>
+     :root {
+       --primary-color: #0a9eff;
+       --copy: #fff;
+     }
+
+     @font-face {
+       font-family: 'Asap';
+       src: url('/fonts/asap-medium-webfont.woff2') format('woff2'),
+       url('/fonts/asap-medium-webfont.woff') format('woff');
+       font-weight: normal;
+       font-style: normal;
+     }
+
+     @font-face {
+       font-family: 'AsapCondensed';
+       src: url('/fonts/asap-condensed-semibold-webfont.woff2') format('woff2'),
+       url('/fonts/asap-condensed-semibold-webfont.woff') format('woff');
+       font-weight: 600;
+       font-style: normal;
+     }
+
+     *, *:before, *:after {
+       box-sizing: border-box;
+     }
+
+     body {
+       background-color: var(--primary-color);
+       color: var(--copy);
+       font-family: "Asap",".SFNSText-Regular","San Francisco","Roboto","Segoe UI","Helvetica Neue","Lucida Grande", sans-serif;
+       margin: 0;
+       hyphens: auto;
+       overflow-x: hidden;
+     }
+
+     .noscript {
+       max-width: 600px;
+       margin: auto;
+       font-size: 1.4em;
+     }
+
+
+    </style>
   </head>
   <body>
     <noscript>
-      <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
+      <div class="noscript">
+      <h1>Mal wieder JavaScript ausgeschaltet?</h1>
+      <p>Datenscham.org braucht es aber um zu funktionieren.<br>Bitte einschalten! Wir tracken auch nicht. Schwöre!</p>
+      </div>
     </noscript>
     <div id="app"></div>
     <!-- built files will be auto injected -->

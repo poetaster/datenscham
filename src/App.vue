@@ -52,47 +52,11 @@
 </script>
 
 <style>
- :root {
-   --primary-color: #0a9eff;
-   --copy: #fff;
- }
-
- @font-face {
-   font-family: 'Asap';
-   src: url('/fonts/asap-medium-webfont.woff2') format('woff2'),
-   url('/fonts/asap-medium-webfont.woff') format('woff');
-   font-weight: normal;
-   font-style: normal;
- }
-
- @font-face {
-   font-family: 'AsapCondensed';
-   src: url('/fonts/asap-condensed-semibold-webfont.woff2') format('woff2'),
-   url('/fonts/asap-condensed-semibold-webfont.woff') format('woff');
-   font-weight: 600;
-   font-style: normal;
- }
-
- *, *:before, *:after {
-   box-sizing: border-box;
- }
-
- body {
-   background-color: var(--primary-color);
-   color: var(--copy);
-   font-family: "Asap",".SFNSText-Regular","San Francisco","Roboto","Segoe UI","Helvetica Neue","Lucida Grande", sans-serif;
-   margin: 0;
-   hyphens: auto;
-   overflow-x: hidden;
- }
 
  a {
    color: var(--copy);
  }
 
- .app {
-
- }
  .wrapper {
    max-width: 860px;
    padding: 0 1.4rem;

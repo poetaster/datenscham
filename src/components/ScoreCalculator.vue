@@ -95,10 +95,10 @@
  }
 
  .score-calculator {
-   border-top: 1px solid var(--copy);
+   border-top: 2px solid var(--copy);
  }
  .score-calculator__score-container {
-   border-top: solid 1px currentColor
+   border-top: solid 2px currentColor
  }
 
  @media (min-width: 600px) {

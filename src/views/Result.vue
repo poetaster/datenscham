@@ -100,12 +100,16 @@
    margin-top: 5rem;
  }
  .result-wrapper {
-   display: flex;
    flex-wrap: wrap;
    justify-content: space-between;
    padding: 2rem 0;
    border-top: 2px solid white;
    border-bottom: 2px solid white;
+ }
+ @media (min-width: 600px) {
+   .result-wrapper {
+     display: flex;
+   }
  }
  .result-result {
    flex: 1 0 66%;

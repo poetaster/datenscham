@@ -100,7 +100,7 @@
 
  @media (min-width: 600px) {
    .quiz__overflow {
-     height: 55vh;
+     height: 60vh;
      overflow-y: scroll;
      scrollbar-width: none;
      position: relative;

@@ -7,7 +7,7 @@
         <p class="result-eval">
           {{ copy.result.conclusion }}:<br></br>
           {{ scoreEvalutation  }}</p>
-        <p class="result-plug">{{ copy.result.plug }}</p>
+        <p class="result-plug" v-html="scorePlug"></p>
       </div>
       <aside class="result-donation" id="twingle"></aside>
     </div>
@@ -23,7 +23,8 @@
    },
    data() {
      return {
-       copy: Copy
+       copy: Copy,
+       range: null
      }
    },
    created() {
@@ -32,11 +33,9 @@
      }
    },
    mounted() {
+     this.whatsMyRange();
+
      setTimeout(() => {
-
-       //this.twingleCode()
-       // ?
-
        let t = document.getElementById('twingle')
        if (t) {
 
@@ -54,46 +53,33 @@
      }, 500)
    },
    methods: {
-     twingleCode() {
-       console.log("called")
-       let t = document.getElementById('twingle')
-       if (t) {
-
-         var u="https://spenden.twingle.de/embed/netzpolitik-org-e-v/spendenseite/tw5bbf1b2551acb/widget";
-	 var id = '_' + Math.random().toString(36).substr(2, 9);
-	 var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
-	 //document.write('<div id="twingle-public-embed-' + id + '"></div>');
-	 g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'/'+id; s.parentNode.insertBefore(g,s);
-
-         let elem = document.createElement('div')
-         elem.id = `twingle-public-embed-${id}`
-         t.appendChild(elem);
+     whatsMyRange() {
+       const score = this.$root.$data.score
+       if (this.between(score, 0, 30)) {
+         this.range = 'low'
+       } else if (this.between(score, 31, 70)) {
+         this.range = 'middle'
+       } else if (this.between(score, 71, 100)) {
+         this.range = 'high'
+       } else {
+         this.range = null
        }
+     },
+     between(x, min, max) {
+       return x >= min && x <= max;
      }
    },
    computed: {
      scoreEvalutation() {
-       const score = this.$root.$data.score
-       let out = '';
-       if (this.between(score, 0, 30)) {
-         out = this.copy.result.eval.low
-       } else if (this.between(score, 31, 70)) {
-         out = this.copy.result.eval.middle
-       } else if (this.between(score, 71, 100)) {
-         out = this.copy.result.eval.high
-       } else {
-         out = 'Out of range?! Das sollte nicht sein'
-       }
-
-       return out
+       if (!this.range) return ''
+       return this.copy.result.eval[this.range]
+     },
+     scorePlug() {
+       if (!this.range) return ''
+       return this.copy.result.plug[this.range]
      },
      score() {
        return Math.floor(this.$root.$data.score / 10)
-     }
-   },
-   methods: {
-     between(x, min, max) {
-       return x >= min && x <= max;
      }
    }
  }
@@ -104,6 +90,8 @@
  .result-score {
    font-size: 3.9rem;
    font-weight: 600;
+   margin-top: 0;
+   margin-bottom: 0;
  }
  #twingle {
    background-color: white;

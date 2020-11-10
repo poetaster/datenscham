@@ -62,7 +62,7 @@
  .header__nav a {
    display: inline-block;
    margin-left: 2rem;
-   font-size: 0.9rem;
+   font-size: 0.7rem;
  }
 
  .header__nav a:hover,

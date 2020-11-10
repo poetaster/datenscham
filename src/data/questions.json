@@ -1,13 +1,16 @@
 [
     {
         "id": 1,
-        "title": "Welchen Browser benutzt Du?",
+        "title": "Welchen Browser benutzt Du hauptsächlich?",
         "answers": [
-            { "text": "Firefox", "score": 10.1 },
-            { "text": "Safari", "score": 5 },
-            { "text": "Chrome", "score": 0.1 },
-            { "text": "Edge", "score": 0.2 },
-            { "text": "Brave", "score": 10.2 }
+            { "text": "Firefox", "score": 10.01 },
+            { "text": "Safari", "score": 5.01 },
+            { "text": "Chrome", "score": 0.01 },
+            { "text": "Edge", "score": 0.02 },
+            { "text": "Brave", "score": 10.02 },
+            { "text": "Chromium", "score": 10.03 },
+            { "text": "Tor", "score": 10.04 },
+            { "text": "Anderen", "score": 5.02 }
         ]
     },
     {
@@ -47,7 +50,7 @@
     },
     {
         "id": 5,
-        "title": "Verschlüsselst Du deine E-Mails?",
+        "title": "Hast du einen PGP-Key?",
         "answers": [
             { "text": "ja", "score": 10 },
             { "text": "nein", "score": 0 }
@@ -65,26 +68,26 @@
         "id": 7,
         "title": "Welchen Messenger benutzt Du hauptsächlich?",
         "answers": [
-            { "text": "WhatsApp", "score": 0.1 },
-            { "text": "Signal", "score": 10.2 },
+            { "text": "WhatsApp", "score": 0.01 },
+            { "text": "Signal", "score": 10.02 },
             { "text": "Telegram", "score": 4 },
-            { "text": "Facebook Messenger", "score": 0.2 },
-            { "text": "Threma", "score": 10.1 },
+            { "text": "Facebook Messenger", "score": 0.02 },
+            { "text": "Threma", "score": 10.01 },
             { "text": "Andere", "score": 5 }
         ]
     },
     {
         "id": 8,
-        "title": "Welche Social Media Kanäle nutzt Du hauptsächlich?",
+        "title": "Welchen Social-Media-Kanal benutzt Du hauptsächlich?",
         "answers": [
             { "text": "TikTok", "score": 0.01 },
             { "text": "Facebook", "score": 0.02 },
-            { "text": "Mastodon", "score": 10.1 },
+            { "text": "Mastodon", "score": 10.01 },
             { "text": "Instagram", "score": 0.03 },
             { "text": "SnapChat", "score": 0.04 },
-            { "text": "YouTube", "score": 0.05 },
+            { "text": "Twitter", "score": 0.05 },
             { "text": "Andere", "score": 0.06 },
-            { "text": "Keine", "score": 10.2 }
+            { "text": "Keine", "score": 10.02 }
         ]
     },
     {

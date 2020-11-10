@@ -39,6 +39,13 @@
             class="btn-next"
             @click.prevent="scrollMeThere">{{ copy.btns.next}}</a>
         </template>
+
+        <template v-if="(data.id +1) > questionsCount">
+          <a
+            :href="`#question-${data.id + 1}`"
+            class="btn-next"
+            @click.prevent="$emit('emitScore')">{{ copy.btns.calculate }}</a>
+        </template>
       </div>
     </div>
   </section>

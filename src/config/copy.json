@@ -1,26 +1,31 @@
 {
   "intro": {
     "title": "Wie sicher ist dein digitales ich?",
-    "claim": "Errechne jetzt anhand zehn kurzer Fragen deinen ganz persönlichen Datenschutzscore."
+    "claim": "Errechne jetzt anhand zehn kurzer Fragen deinen ganz persönlichen Datensicherheits-Score."
   },
   "result": {
-      "your_score": "Dein Datensicherheitsscore",
-      "conclusion": "Fazit",
-      "plug": "Mit einer Spende schauen wir für Dich genauer hin, recherchieren tiefer und informieren dich jederzeit auf netzpolitik.org über die Ergebnisse unserer Arbeit.",
-      "eval": {
-          "low": "Lorem ipsum dolor sit amet",
-          "middle": "Dein digitaler Fußabdruck ist dir zwar nicht egal, aber so recht hast Du auch keine Lust zu kontrollieren was mit deinen Daten passiert.",
-          "high": "high"
-      }
+    "your_score": "Dein Datensicherheits-Score",
+    "conclusion": "Fazit",
+    "eval": {
+      "low": "Achtung, Grund zur Datenscham! Bisher ist Dir deine Datenspur wohl nicht sehr wichtig? Da ist noch Luft nach oben.",
+      "middle": "Schon ganz gut, aber noch Luft nach oben!",
+      "high": "Sehr gut! Kein Grund zur Panik!"
+    },
+    "plug": {
+      "low": "Aber keine Sorge, auch wenn Du deine Daten bereitwillig zurück lässt, wir setzen uns trotzdem für deine digitalen Freiheitsrechte ein. Wir schauen genauer hin wo abgesaugt und ausgewertet wird, wo Grundrechte beschnitten werden und der Überwachungsapparat ausgebaut wird. Unterstütze die Arbeit von <a href='https://netzpolitik.org/'>netzpolitik.org</a> mit einer Spende. Bekämpfe deine Datenscham noch heute.",
+      "middle": "Dein digitaler Fußabdruck ist dir zwar nicht egal, aber so richtig hast Du keine Lust dich mit deiner Datensicherheit zu beschäftigen. Aber keine Sorge, wir setzen uns trotzdem für deine digitalen Freiheitsrechte ein. Wir schauen genauer hin wo abgesaugt und ausgewertet wird, wo Grundrechte beschnitten werden und der Überwachungsapparat ausgebaut wird. Unterstütze die Arbeit von <a href='https://netzpolitik.org/'>netzpolitik.org</a> mit einer Spende. Bekämpfe deine Datenscham noch heute.",
+      "high": "Digitale Selbstverteidigung ist für dich kein Fremdwort und Du weißt wie Du dich schützen kannst. Hilf uns dabei anderen Menschen für einen bewussteren Umgang mit ihrem digitalen Fußabdruck zu sensibilisieren und unterstütze die Arbeit von <a href='https://netzpolitik.org/'>netzpolitik.org</a> mit deiner Spende. So können wir genauer hinschauen, tiefer recherchieren und besser aufklären. Einfach besser digitale Freiheitsrechte schützen."
+    }
   },
   "btns": {
     "start": "Check starten",
     "back": "zurück",
     "next": "weiter",
-    "again": "nochmal"
+    "again": "nochmal",
+    "calculate": "Score errechnen"
   },
   "footer": {
-    "data": "Datenschutzhinweise",
+    "data": "Hinweise",
     "imprint": "Impressum",
     "data_claim": "Die Ergbnisse dieses Test werden von uns NICHT gespeichert, ausgewertet oder sonstwie weiterverwendet. Deine Daten gehören Dir!",
     "service": "Ein Service von"

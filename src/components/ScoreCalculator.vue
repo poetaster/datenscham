@@ -8,14 +8,11 @@
         :data="question"
         :questionsCount="questions.length"
         @answerClicked="onAnswerClick"
+        @emitScore="emitScore"
         :missingQ="missingQ"
       />
     </div>
-    <div class="score-calculator__score-container center-helper">
-      <p><button data-test="button-emit" @click="emitScore" class="btn-next">
-        {{ buttonText }}
-      </button></p>
-    </div>
+
     <footer class="score-calculator__footer">
       <slot name="footerText" />
     </footer>

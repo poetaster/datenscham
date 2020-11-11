@@ -166,7 +166,7 @@
  }
 
  .question__footnote {
-   font-size: 0.7rem;
+   font-size: 1rem;
  }
 
  .answer-group {

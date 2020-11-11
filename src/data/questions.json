@@ -11,7 +11,8 @@
             { "text": "Chromium", "score": 10.03 },
             { "text": "Tor", "score": 10.04 },
             { "text": "Anderen", "score": 5.02 }
-        ]
+        ],
+         "footnote": "Open-Source-basierte Browser, die den Schutz der Privatsphäre sichern wollen, sind geschlossenen Systemen oder denen von Datensammlungsunternehmen zum sicheren Surfen vorzuziehen. Informationen zu Vor- und Nachteilen der verschiedenen Browser findest Du z.B. <a href='https://netzpolitik.org/2018/kleines-einmaleins-der-digitalen-selbstverteidigung/#Browser'>hier auf netzpolitik.org</a>"
     },
     {
         "id": 2,

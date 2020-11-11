@@ -31,10 +31,9 @@
      if (this.$root.$data.score == undefined) {
        this.$router.replace({name: 'home'})
      }
+     this.whatsMyRange();
    },
    mounted() {
-     this.whatsMyRange();
-
      setTimeout(() => {
        let t = document.getElementById('twingle')
        if (t) {
@@ -51,6 +50,8 @@
        }
 
      }, 500)
+
+     window.scrollTo({left: 0, top: 0, beahaviour: 'smooth'})
    },
    methods: {
      whatsMyRange() {

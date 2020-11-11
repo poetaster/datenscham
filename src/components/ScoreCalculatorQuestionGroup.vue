@@ -22,6 +22,9 @@
           <span class="answer-group__text">{{ answer.text }}</span>
         </label>
       </div>
+      <template v-if="data.footnote">
+        <p class="question__footnote" v-html="data.footnote"></p>
+      </template>
     </div>
     <div class="question-group__nav">
       <div class="nav__back">
@@ -127,6 +130,7 @@
    padding-top: 5vh;
    padding-bottom: 25vh;
  }
+
  @media (min-width: 600px) {
    .question-group {
      padding-top: 1vh;
@@ -159,6 +163,10 @@
  .question-group__answers > div {
    margin-bottom: 0.8rem;
    flex: 0 0 49%;
+ }
+
+ .question__footnote {
+   font-size: 0.7rem;
  }
 
  .answer-group {

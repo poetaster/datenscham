@@ -100,13 +100,19 @@
 
  @media (min-width: 600px) {
    .quiz__overflow {
-     height: 60vh;
+     height: 65vh;
      overflow-y: scroll;
-     scrollbar-width: none;
+     scrollbar-width: thin;
      position: relative;
+     padding-right: 0.8rem;
    }
    .quiz__overflow::-webkit-scrollbar {
-     width: 0
+     width: 0.3rem;
+     height: 8px;
+     background-color: rgba(255,255,255,0.5);
+   }
+   .quiz__overflow::-webkit-scrollbar-thumb {
+     background-color: #fff
    }
  }
 </style>

@@ -1,61 +1,65 @@
 [
     {
         "id": 1,
-        "title": "Welchen Browser benutzt Du hauptsächlich?",
+        "title": "Welchen Browser benutzt Du?",
         "answers": [
-            { "text": "Firefox", "score": 10.01 },
-            { "text": "Safari", "score": 5.01 },
+            { "text": "Firefox", "score": 7 },
+            { "text": "Safari", "score": 5 },
             { "text": "Chrome", "score": 0.01 },
             { "text": "Edge", "score": 0.02 },
-            { "text": "Brave", "score": 10.02 },
-            { "text": "Chromium", "score": 10.03 },
-            { "text": "Tor", "score": 10.04 },
+            { "text": "Brave", "score": 10.01 },
+            { "text": "Chromium", "score": 8 },
+            { "text": "Tor", "score": 10.02 },
             { "text": "Anderen", "score": 5.02 }
         ],
-         "footnote": "Open-Source-basierte Browser, die den Schutz der Privatsphäre sichern wollen, sind geschlossenen Systemen oder denen von Datensammlungsunternehmen zum sicheren Surfen vorzuziehen. Informationen zu Vor- und Nachteilen der verschiedenen Browser findest Du z.B. <a href='https://netzpolitik.org/2018/kleines-einmaleins-der-digitalen-selbstverteidigung/#Browser'>hier auf netzpolitik.org</a>"
+         "footnote": "Ein Browser sollte deine Privatsphäre schützen und nicht dein Surfverhalten auswerten. Umso besser, wenn er deine Datenspur verschleiert, mit PlugIns individuell konfigurierbar ist oder der Quellcode von einer Progammierer:innen-Community überprüft werden kann, also quelloffen ist. Informationen zu Vor- und Nachteilen der verschiedenen Browser findest Du z. B. <a href=\"https://netzpolitik.org/2018/kleines-einmaleins-der-digitalen-selbstverteidigung/#Browser\">hier</a>."
     },
     {
         "id": 2,
         "title": "Welche Suchmaschine benutzt Du hauptsächlich?",
         "answers": [
             { "text": "Google", "score": 0 },
-            { "text": "Startpage", "score": 10.1 },
+            { "text": "Startpage", "score": 10.01 },
             { "text": "Bing", "score": 3 },
-            { "text": "DuckDuckGo", "score": 10.2 },
-            { "text": "Qwant", "score": 10.3 },
+            { "text": "DuckDuckGo", "score": 10.02 },
+            { "text": "Qwant", "score": 10.03 },
             { "text": "Ecosia", "score": 7 },
-            { "text": "MetaGer", "score": 10.4 },
+            { "text": "MetaGer", "score": 10.04 },
             { "text": "Andere", "score": 5 }
-        ]
+        ],
+        "footnote": "Eine empfehlenswerte Suchmaschine speichert deine Suchanfragen nicht länger als unbedingt nötig und wertet sie auch nicht zu kommerziellen Zwecken aus. Punkt. Wenn Du Fragen zu guten Alternativen hast, dann gibt es  <a href=\"https://netzpolitik.org/2018/kleines-einmaleins-der-digitalen-selbstverteidigung/#Alternativen\">hier Hilfestellung</a>."
     },
     {
         "id": 3,
-        "title": "Und wie oft löscht Du deine Browserdaten?",
+        "title": "Und wie oft löscht Du die Cockies im Browser?",
         "answers": [
             { "text": "täglich", "score": 10 },
             { "text": "wöchentlich", "score": 5 },
             { "text": "monatlich", "score": 3 },
             { "text": "nie", "score": 0 }
-        ]
+        ],
+        "footnote": "Durch das regelmäßige Löschen deiner Browserdaten (wie z. B. Cookies) kannst Du es Unternehmen erschweren dich quer durch das Internet zu verfolgen. Das ist manchmal mühsam, weil Cookies eigentlich sehr praktische Dinge können, doch mit einem Passwortmanager kannst du z. B. deinen Log-In-Aufwand minimieren. All das nutzt übrigens nichts, wenn du permanent bei Google eingeloggt im Chrome-Browser unterwegs bist."
     },
     {
         "id": 4,
         "title": "Welchen Cloud-Speicher benutzt Du?",
         "answers": [
             { "text": "Google Drive", "score": 0 },
-            { "text": "NextCloud", "score": 10 },
-            { "text": "Dropbox", "score": 5.1 },
-            { "text": "iCloud", "score": 5.2 },
-            { "text": "Welche Cloud?", "score": 5.3 }
-        ]
+            { "text": "NextCloud", "score": 10.01 },
+            { "text": "Dropbox", "score": 5.01 },
+            { "text": "iCloud", "score": 5.02 },
+            { "text": "Welche Cloud?", "score": 10.02 }
+        ],
+        "footnote": "Deine Fotos, Steuerunterlagen oder Liebesbriefe sollte – wenn überhaupt – nur in gut geschützten (und verschlüsselten) Clouds liegen. Am besten suchst Du dir einen sicheren Cloud-Anbieter mit Servern in Europa. Das alles gilt nur, wenn ein externes Speichermedium keine Option ist."
     },
     {
         "id": 5,
-        "title": "Hast du einen PGP-Key?",
+        "title": "Verschlüsselst Du deine E-Mails?",
         "answers": [
             { "text": "ja", "score": 10 },
             { "text": "nein", "score": 0 }
-        ]
+        ],
+        "footnote": "OpenPGP ist eine Möglichkeit, deinen Mailverkehr mit Ende-zu-Ende-Verschlüsselung zu schützen, denn deine Kommunikation gehört dir! Der beste Key hilft allerdings nicht, wenn deine Freundin:innen keinen haben. Helft euch darum gegenseitig und informiert euch. Ein netter Hack-Space in eurer Nähe ist eine gute Anlaufstelle, auch <a href=\"https://www.cryptoparty.in/location#germany\"> Cryptoparties</a> können nach der Pandemie wieder helfen. Verschlüsselung ist gar nicht so schwer."
     },
     {
         "id": 6,
@@ -63,19 +67,21 @@
         "answers": [
             { "text": "ja", "score": 10 },
             { "text": "nein", "score": 0 }
-        ]
+        ],
+        "footnote": "Deine Speichermedien vor unliebsamen Blicken zu schützen ist nicht schwer. Heutzutage bieten eigentlich alle gängigen Betriebssysteme integrierte Verschlüsselungsmethoden. Schau einfach mal nach."
     },
     {
         "id": 7,
         "title": "Welchen Messenger benutzt Du hauptsächlich?",
         "answers": [
-            { "text": "WhatsApp", "score": 0.01 },
-            { "text": "Signal", "score": 10.02 },
+            { "text": "WhatsApp", "score": 2 },
+            { "text": "Signal", "score": 10.01 },
             { "text": "Telegram", "score": 4 },
-            { "text": "Facebook Messenger", "score": 0.02 },
-            { "text": "Threma", "score": 10.01 },
+            { "text": "Facebook Messenger", "score": 0 },
+            { "text": "Threma", "score": 10.02 },
             { "text": "Andere", "score": 5 }
-        ]
+        ],
+        "footnote": "Es gibt Messenger, die sind sicher verschlüsselt und speichern so gut wie keine Daten von dir. Es gibt welche, die sind zwar verschlüsselt, doch sie werten deine Metadaten aus, also wen du kennst und wie oft und wie lange du mit wem kommunizierst. Und es gibt Messenger, die dir nicht mal standardmäßig Ende-zu-Ende-verschlüsselte Kommunikation ermöglichen. Informier dich <a href=\"https://netzpolitik.org/2018/kleines-einmaleins-der-digitalen-selbstverteidigung/#Messenger\">hier</a> welche Möglichkeiten Du hast, dich besser zu schützen."
     },
     {
         "id": 8,
@@ -87,9 +93,11 @@
             { "text": "Instagram", "score": 0.03 },
             { "text": "SnapChat", "score": 0.04 },
             { "text": "Twitter", "score": 0.05 },
-            { "text": "Andere", "score": 0.06 },
+            { "text": "YouTube", "score": 0.06 },
+            { "text": "Andere", "score": 0.07 },
             { "text": "Keine", "score": 10.02 }
-        ]
+        ],
+        "footnote": "Soziale Netzwerke haben klare Vorteile, ohne Frage. Aber für viele von ihnen bist Du leider nur eine für kommerzielle Zwecke auswertbare Nummer. Dessen solltest Du dir beim Liken und Sharen bewusst sein. Es lohnt sich außerdem, sich mit <a href=\"https://netzpolitik.org/2017/interview-die-anfangsphase-des-alternativen-sozialen-netzwerks-mastodon-ist-vorueber/\"> dezentralen Netzwerken </a> auseinanderzusetzen. Sie ermöglichen eine alternative, datenschutzfreundliche Infrastruktur in Nutzer:innenhand."
     },
     {
         "id": 9,
@@ -100,7 +108,8 @@
             { "text": "5/10", "score": 5 },
             { "text": "6-9/10", "score": 3 },
             { "text": "10/10", "score": 0 }
-        ]
+        ],
+        "footnote": "Monopolbildung? Steuervermeidung? Arbeitnehmer:innenrechte? Und natürlich <a href=\"https://netzpolitik.org/2020/wettbewerbsrecht-eu-kommission-prueft-amazons-datenmacht/\">Datenmacht.</a> Die Liste mit Gründen kleinere oder lokale Unternehmen zu unterstützen, ist lang."
     },
     {
         "id": 10,
@@ -110,6 +119,7 @@
             { "text": "alle paar Tage", "score": 6 },
             { "text": "selten", "score": 3 },
             { "text": "nie", "score": 0 }
-        ]
+        ],
+        "footnote": "Das Internet geht nicht mehr weg. Darum ist es immer ein gute Idee sich auf dem Laufenden zu halten, was in der Netzpolitik so passiert. <a href=\"https://netzpolitik.org/2018/kleines-einmaleins-der-digitalen-selbstverteidigung/#Alternativen\">Hier</a> gibt es Hintergründe, Recherchen und hilfreiche Tipps."
     }
 ]

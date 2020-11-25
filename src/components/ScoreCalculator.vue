@@ -103,13 +103,14 @@
      height: 65vh;
      overflow-y: scroll;
      scrollbar-width: thin;
+     scrollbar-color: #fff rgba(255,255,255,0.3);
      position: relative;
      padding-right: 0.8rem;
    }
    .quiz__overflow::-webkit-scrollbar {
      width: 0.3rem;
      height: 8px;
-     background-color: rgba(255,255,255,0.5);
+     background-color: rgba(255,255,255,0.3);
    }
    .quiz__overflow::-webkit-scrollbar-thumb {
      background-color: #fff

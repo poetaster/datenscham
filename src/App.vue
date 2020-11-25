@@ -11,6 +11,7 @@
     </div>
     <div class="wrapper">
       <app-legal />
+      <app-spoiler />
     </div>
   </div>
 </template>
@@ -20,13 +21,15 @@
  import AppFooter from '@/components/Footer'
  import AppHeader from '@/components/Header'
  import AppLegal from '@/components/Legal'
+ import AppSpoiler from '@/components/Spoiler'
 
  export default {
    name: 'App',
    components: {
      AppFooter,
      AppHeader,
-     AppLegal
+     AppLegal,
+     AppSpoiler
    },
    watch: {
      '$route' (to, from) {

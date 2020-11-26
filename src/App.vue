@@ -78,51 +78,21 @@
  .btn-back {
    position: relative;
    display: inline-block;
-   background-color: var(--copy);
-   color: var(--primary-color);
-   padding: .5em 0.4em;
+   max-width: 70vw;
+   padding: 0.3em 3em 0.45em;
    text-decoration: none;
    font: inherit;
-   border: 0;
    font-size: 1.2em;
-   height: 60px;
-   transition: transform 200ms ease-in-out;
+   color: var(--primary-color);
    cursor: pointer;
-   max-width: 70vw;
-   line-height: 2;
    outline: none;
- }
- @media (min-width: 600px) {
-   .btn,
-   .btn-next,
-   .btn-back {
-     padding: 0.6rem 3rem;
-
-   }
+   box-shadow: 2px 5px 5px 0 rgba(0,0,0,.25);
+   border: 0;
+   border-radius: 4px;
+   background-color: var(--copy);
+   transition: transform 200ms ease-in-out;
  }
 
- .btn-next:after {
-   content: "";
-   position: absolute;
-   top: 0;
-   right: -1.55em;
-   width: 0;
-   height: 0;
-   border-top: 1.6em solid transparent;
-   border-bottom: 1.6em solid transparent;
-   border-left: 1.6em solid var(--copy);
- }
- .btn-back:after {
-   content: "";
-   position: absolute;
-   top: 0;
-   left: -1.55em;
-   width: 0;
-   height: 0;
-   border-top: 1.6em solid transparent;
-   border-bottom: 1.6em solid transparent;
-   border-right: 1.6em solid var(--copy);
- }
  .btn:hover,
  .btn:active,
  .btn-next:hover,

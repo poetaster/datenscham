@@ -22,7 +22,7 @@
           <span class="answer-group__text">{{ answer.text }}</span>
         </label>
       </div>
-      <template v-if="data.footnote">
+      <template v-if="false">
         <p class="question__footnote" v-html="data.footnote"></p>
       </template>
     </div>

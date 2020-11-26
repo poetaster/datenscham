@@ -36,6 +36,8 @@
       <p><strong>Design:</strong><br>
         Ole - <a href="https://netzpolitik.org/">netzpolitik.org</a></p>
       </p>
+      <p><strong>Feedback:</strong><br>
+        <a href="mailto:datenscham@netzpolitik.org">datenscham@netzpolitik.org</a></p>
     </section>
   </aside>
 </template>

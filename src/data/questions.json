@@ -1,7 +1,7 @@
 [
     {
         "id": 1,
-        "title": "Welchen Browser benutzt Du?",
+        "title": "Welchen Browser benutzt Du hauptsächlich?",
         "answers": [
             { "text": "Firefox", "score": 7 },
             { "text": "Safari", "score": 5 },
@@ -12,7 +12,7 @@
             { "text": "Tor", "score": 10.02 },
             { "text": "Anderen", "score": 5.02 }
         ],
-         "footnote": "Ein Browser sollte deine Privatsphäre schützen und nicht dein Surfverhalten auswerten. Umso besser, wenn er deine Datenspur verschleiert, mit PlugIns individuell konfigurierbar ist oder der Quellcode von einer Progammierer:innen-Community überprüft werden kann, also quelloffen ist. Informationen zu Vor- und Nachteilen der verschiedenen Browser findest Du z. B. <a href=\"https://netzpolitik.org/2018/kleines-einmaleins-der-digitalen-selbstverteidigung/#Browser\">hier</a>."
+         "footnote": "Ein Browser sollte deine Privatsphäre schützen, nicht dein Surfverhalten auswerten. Umso besser, wenn er deine Datenspur verschleiert, mit PlugIns individuell konfigurierbar ist oder der Quellcode von einer Progammierer:innen-Community überprüft werden kann, also quelloffen ist. Informationen zu Vor- und Nachteilen der verschiedenen Browser findest Du z.B. hier auf <a href=\" https://netzpolitik.org/2018/kleines-einmaleins-der-digitalen-selbstverteidigung/#Browser\">netzpolitik.org</a>."
     },
     {
         "id": 2,
@@ -27,7 +27,7 @@
             { "text": "MetaGer", "score": 10.04 },
             { "text": "Andere", "score": 5 }
         ],
-        "footnote": "Eine empfehlenswerte Suchmaschine speichert deine Suchanfragen nicht länger als unbedingt nötig und wertet sie auch nicht zu kommerziellen Zwecken aus. Punkt. Wenn Du Fragen zu guten Alternativen hast, dann gibt es  <a href=\"https://netzpolitik.org/2018/kleines-einmaleins-der-digitalen-selbstverteidigung/#Alternativen\">hier Hilfestellung</a>."
+        "footnote": "Eine empfehlenswerte Suchmaschine speichert deine Suchanfragen nicht länger als unbedingt nötig und wertet sie auch nicht zu kommerziellen Zwecken aus. Punkt. Wenn Du Fragen zu guten Alternativen hast, dann gibt es <a href=\"https://netzpolitik.org/2018/kleines-einmaleins-der-digitalen-selbstverteidigung/#Alternativen\">hier Hilfestellung</a>."
     },
     {
         "id": 3,
@@ -38,7 +38,7 @@
             { "text": "monatlich", "score": 3 },
             { "text": "nie", "score": 0 }
         ],
-        "footnote": "Durch das regelmäßige Löschen deiner Browserdaten (wie z. B. Cookies) kannst Du es Unternehmen erschweren dich quer durch das Internet zu verfolgen. Das ist manchmal mühsam, weil Cookies eigentlich sehr praktische Dinge können, doch mit einem Passwortmanager kannst du z. B. deinen Log-In-Aufwand minimieren. All das nutzt übrigens nichts, wenn du permanent bei Google eingeloggt im Chrome-Browser unterwegs bist."
+        "footnote": "Durch das regelmäßige Löschen deiner Browserdaten (wie z. B. Cookies) kannst Du es Unternehmen erschweren, dass sie dich quer durch das Internet verfolgen. Das ist manchmal mühsam, weil Cookies doch eigentlich sehr praktische Dinge sind, doch mit einem Passwortmanager kannst du deinen Log-In-Aufwand minimieren. All das nutzt übrigens nichts, wenn du permanent bei Google eingeloggt im Chrome-Browser unterwegs zu sein."
     },
     {
         "id": 4,
@@ -48,13 +48,14 @@
             { "text": "NextCloud", "score": 10.01 },
             { "text": "Dropbox", "score": 5.01 },
             { "text": "iCloud", "score": 5.02 },
-            { "text": "Welche Cloud?", "score": 10.02 }
+            { "text": "Welche Cloud?", "score": 10.02 },
+            { "text": "Keine", "score": 10.03 }
         ],
         "footnote": "Deine Fotos, Steuerunterlagen oder Liebesbriefe sollte – wenn überhaupt – nur in gut geschützten (und verschlüsselten) Clouds liegen. Am besten suchst Du dir einen sicheren Cloud-Anbieter mit Servern in Europa. Das alles gilt nur, wenn ein externes Speichermedium keine Option ist."
     },
     {
         "id": 5,
-        "title": "Verschlüsselst Du deine E-Mails?",
+        "title": "Hast Du einen PGP-Key?",
         "answers": [
             { "text": "ja", "score": 10 },
             { "text": "nein", "score": 0 }

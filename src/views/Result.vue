@@ -37,8 +37,7 @@
      setTimeout(() => {
        let t = document.getElementById('twingle')
        if (t) {
-
-         var u="https://spenden.twingle.de/embed/netzpolitik-org-e-v/spendenseite/tw5bbf1b2551acb/widget";
+         var u="https://spenden.twingle.de/embed/netzpolitik-org-e-v/datensicherheitsscore-rechner/tw5f981b1fdab34/widget";
 	 var id = '_' + Math.random().toString(36).substr(2, 9);
 	 var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
 	 //document.write('<div id="twingle-public-embed-' + id + '"></div>');

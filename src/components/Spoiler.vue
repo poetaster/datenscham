@@ -1,6 +1,6 @@
 <template>
   <aside>
-    <section id="spiler"  class="spoiler">
+    <section id="spoiler"  class="spoiler">
       <h2>Auswertung</h2>
       <p>Achtung Spoiler! Lies diesen Teil am besten erst nach dem Test.</p>
       <button @click="toggleSpoiler" class="btn spoiler-btn">Zeig her!</button>
@@ -10,7 +10,7 @@
         <template v-if="showSpoiler">
           <div >
             <h3>So haben wir die einzelnen Antworten bewertet</h3>
-            <p>Der Transparenz halber zeigen wir hier, wie wir die einzelnen Antworten gewichtet haben. Die Vergabe von Punkten für diesen nicht ganz ernst gemeinten Datenscham-Rechner ist nur ein Hilfskonstrukt, um Aufmerksamkeit und einen spielerischen Zugang zur Thematik zu ermöglichen. Bitte nehmt die Punkteverteilung deshalb nicht zu ernst. Privatsphäre ist ein soziales Konstrukt und IT-Sicherheit immer kontextabhängig. Wer seinen Chrome-Browser richtig konfiguriert, kann damit datensparsamer unterwegs sei als jemand, der im Firefox die falschen Add-Ons installiert hat. Wer sich in sozialen Netzwerken für eine bessere Datenschutzpolitik einsetzt, kann vielleicht langfristig für den Schutz der Privatsphäre mehr bewirken, als jemand, der sich virtuell einmauert. Wir freuen uns natürlich trotzdem, wenn ihr uns freundliche und mit Quellen unterlegte Hinweise gebt, falls ihr mit einer Bepunktung nicht einverstanden seid. Bitte schickt sie an <a href="mailto:papierkorb@netzpolitik.org">papierkorb@netzpolitik.org</a></p>
+            <p>Der Transparenz halber zeigen wir hier, wie wir die einzelnen Antworten gewichtet haben. Die Vergabe von Punkten für diesen nicht ganz ernst gemeinten Rechner ist nur ein Hilfskonstrukt, um Aufmerksamkeit und einen spielerischen Zugang zur Thematik zu ermöglichen. Bitte nehmt die Punkteverteilung deshalb nicht zu ernst. Privatsphäre ist ein soziales Konstrukt und IT-Sicherheit immer kontextabhängig. Ein gut konfigurierter Chrome-Brwoser kann datensparsamer sein als Firefox mit falschen Add-Ons. Sich in sozialen Netzwerken für eine bessere Datenschutzpolitik einsetzen, könnte langfristig mehr für den Schutz der Privatsphäre bewirken, als sich virtuell einzumauern. Wir freuen uns natürlich trotzdem, wenn ihr uns freundliche und mit Quellen unterlegte Hinweise gebt, falls ihr mit einer Bepunktung nicht einverstanden seid. Bitte schickt sie an <a href="mailto:datenscham@netzpolitik.org">datenscham@netzpolitik.org</a></p>
 
             <ul class="spoiler-list">
               <li v-for="q in questions">

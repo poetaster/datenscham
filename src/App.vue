@@ -79,7 +79,7 @@
    position: relative;
    display: inline-block;
    max-width: 70vw;
-   padding: 0.3em 3em 0.45em;
+   padding: 0.3em 1.5em 0.45em;
    text-decoration: none;
    font: inherit;
    font-size: 1.2em;
@@ -91,6 +91,20 @@
    border-radius: 4px;
    background-color: var(--copy);
    transition: transform 200ms ease-in-out;
+ }
+
+ .btn:focus,
+ .btn-next:focus,
+ .btn-back:focus {
+   outline: 2px solid var(--copy);
+   outline-offset: 2px;
+ }
+ @media (min-width: 600px) {
+   .btn,
+   .btn-next,
+   .btn-back {
+     padding: 0.3em 3em 0.45em;
+   }
  }
 
  .btn:hover,

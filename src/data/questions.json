@@ -31,14 +31,14 @@
     },
     {
         "id": 3,
-        "title": "Und wie oft löscht Du die Cockies im Browser?",
+        "title": "Und wie oft löscht Du die Cookies im Browser?",
         "answers": [
-            { "text": "täglich", "score": 10 },
-            { "text": "wöchentlich", "score": 5 },
-            { "text": "monatlich", "score": 3 },
+            { "text": "nach jeder Session", "score": 10 },
+            { "text": "gelegentlich", "score": 5 },
+            { "text": "selten", "score": 3 },
             { "text": "nie", "score": 0 }
         ],
-        "footnote": "Durch das regelmäßige Löschen deiner Browserdaten (wie z. B. Cookies) kannst Du es Unternehmen erschweren, dass sie dich quer durch das Internet verfolgen. Das ist manchmal mühsam, weil Cookies doch eigentlich sehr praktische Dinge sind, doch mit einem Passwortmanager kannst du deinen Log-In-Aufwand minimieren. All das nutzt übrigens nichts, wenn du permanent bei Google eingeloggt im Chrome-Browser unterwegs zu sein."
+        "footnote": "Durch das regelmäßige Löschen deiner Browserdaten (wie z. B. Cookies) kannst Du es Unternehmen erschweren, dass sie dich quer durch das Internet verfolgen. Das ist manchmal mühsam, weil Cookies doch eigentlich sehr praktische Dinge sind, doch mit einem Passwortmanager kannst du deinen Log-In-Aufwand minimieren. All das nutzt übrigens nichts, wenn du permanent bei Google eingeloggt im Chrome-Browser unterwegs bist."
     },
     {
         "id": 4,
@@ -49,7 +49,7 @@
             { "text": "Dropbox", "score": 5.01 },
             { "text": "iCloud", "score": 5.02 },
             { "text": "Welche Cloud?", "score": 10.02 },
-            { "text": "Keine", "score": 10.03 }
+            { "text": "Anderen", "score": 10.03 }
         ],
         "footnote": "Deine Fotos, Steuerunterlagen oder Liebesbriefe sollte – wenn überhaupt – nur in gut geschützten (und verschlüsselten) Clouds liegen. Am besten suchst Du dir einen sicheren Cloud-Anbieter mit Servern in Europa. Das alles gilt nur, wenn ein externes Speichermedium keine Option ist."
     },

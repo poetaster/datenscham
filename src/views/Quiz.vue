@@ -48,7 +48,6 @@
        return this.$router.push({path: '/score/'})
      },
      showError(evt) {
-       console.log(evt)
        this.missingQ = evt
        this.error = `Noch ${evt.length} Fragen unbeantwortet.`
      }

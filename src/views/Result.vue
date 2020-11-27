@@ -8,6 +8,9 @@
           {{ copy.result.conclusion }}:<br></br>
           {{ scoreEvalutation  }}</p>
         <p class="result-plug" v-html="scorePlug"></p>
+        <p class="result-plug"><a href="#spoiler" @click.prevent="scrollMeThere">{{ copy.result.linkToSpoiler }}</a></p>
+        <p class="result-plug" v-html="copy.result.disclaimer"></p>
+        <p class="result-plug" v-html="copy.result.cta"></p>
       </div>
       <aside class="result-donation" id="twingle"></aside>
     </div>
@@ -67,6 +70,15 @@
      },
      between(x, min, max) {
        return x >= min && x <= max;
+     },
+     scrollMeThere(ev) {
+       const elemID = ev.target.href.split('/#')[1]
+       let newElem = document.querySelector('#' + elemID)
+       const opt = {top: newElem.offsetTop,
+                    left: 0,
+                    behavior: 'smooth'}
+       window.scrollTo(opt)
+       this.$router.push({hash: '#' + elemID})
      }
    },
    computed: {
@@ -120,7 +132,7 @@
    background-color: white;
  }
  .result-plug {
-   font-size: 0.9rem;
+   font-size: 1rem;
  }
  .result-eval {
    font-size: 1.2rem;

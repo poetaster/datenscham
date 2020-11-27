@@ -7,15 +7,18 @@
     "your_score": "Dein Datensicherheits-Score",
     "conclusion": "Fazit",
     "eval": {
-      "low": "Achtung, Grund zur Datenscham! Bisher ist Dir deine Datenspur wohl nicht sehr wichtig? Da ist noch Luft nach oben.",
-      "middle": "Schon ganz gut, aber noch Luft nach oben!",
-      "high": "Sehr gut! Kein Grund zur Panik!"
+      "low": "Datenschleuder",
+      "middle": "Datenschutz-Schweinehund",
+      "high": "Privacy-Ninja"
     },
     "plug": {
-      "low": "Aber keine Sorge, auch wenn Du deine Daten bereitwillig zurück lässt, wir setzen uns trotzdem für deine digitalen Freiheitsrechte ein. Wir schauen genauer hin wo abgesaugt und ausgewertet wird, wo Grundrechte beschnitten werden und der Überwachungsapparat ausgebaut wird. Unterstütze die Arbeit von <a href='https://netzpolitik.org/'>netzpolitik.org</a> mit einer Spende. Bekämpfe deine Datenscham noch heute.",
-      "middle": "Dein digitaler Fußabdruck ist dir zwar nicht egal, aber so richtig hast Du keine Lust dich mit deiner Datensicherheit zu beschäftigen. Aber keine Sorge, wir setzen uns trotzdem für deine digitalen Freiheitsrechte ein. Wir schauen genauer hin wo abgesaugt und ausgewertet wird, wo Grundrechte beschnitten werden und der Überwachungsapparat ausgebaut wird. Unterstütze die Arbeit von <a href='https://netzpolitik.org/'>netzpolitik.org</a> mit einer Spende. Bekämpfe deine Datenscham noch heute.",
-      "high": "Digitale Selbstverteidigung ist für dich kein Fremdwort und Du weißt wie Du dich schützen kannst. Hilf uns dabei anderen Menschen für einen bewussteren Umgang mit ihrem digitalen Fußabdruck zu sensibilisieren und unterstütze die Arbeit von <a href='https://netzpolitik.org/'>netzpolitik.org</a> mit deiner Spende. So können wir genauer hinschauen, tiefer recherchieren und besser aufklären. Einfach besser digitale Freiheitsrechte schützen."
-    }
+      "low": "Wow, Du bist eine echte Datenschleuder! „Datenreichtum für alle“ ist Dein Digital-Motto und das lebst Du auch. Selbstlos verteilst du Cookies an die bedürftige Werbebranche. Zur Party auf deinen IT-Systemen lädst du einfach alle ein. Post-Privacy ist für Dich kein Spleen der Digitalbohème, sondern Lifestyle. Wer nichts zu verbergen hat, lebt eben leichter. Und sagte nicht schon Edward Snowden, es gäbe kein richtiges Leben im falschen?",
+      "middle": "Wow, Du bist ein echter Datenschutz-Schweinehund! „Darum wollte ich mich auch irgendwann mal kümmern“ ist Dein Digital-Motto und das lebst Du auch. Mit großem Eifer beginnst Du immer wieder von vorne. Deshalb hast Du auch schon mal mit dem Daten-Detox angefangen, als Du neulich diesen aufwühlenden Artikel last. Aber dann war Black Friday auf Amazon. Morgen ist ja auch noch ein Tag. Und sagte nicht schon Edward Snowden, überzogener Datenschutz sei verkürzte Kapitalismuskritik?",
+      "high": "Wow, du bist ein:e echte Privacy-Ninja! „The only good data is no data“ ist dein Motto und das lebst Du auch. Dir schaut niemand in die Karten und bevor Du unverschlüsselst kommunizierst, kommunizierst du lieber gar nicht. Dass Deine Daten Dir gehören, ist für Dich kein Spleen der Digitalbohème, sondern Lifestyle. Schließlich hast Du den schwarzen Gürtel in digitaler Selbstverteidigung nicht umsonst. Und sagte nicht schon Edward Snowden, dass ..."
+    },
+      "linkToSpoiler": "Hier geht’s zur Auswertung.",
+      "disclaimer": "Mit diesem nicht ganz ernst gemeinten Datenscham-Rechner wollen wir dich für deine Dastensicherheit sensibilisieren. Auch dafür recherchieren und schreiben wir bei <a href=\"https://netzpolitik.org\">netzpolitik.org.</a> Wir bleiben dran und haken nach, wir klären auf und hinterfragen. Jeden Tag und unermüdlich. Unser Angebot ist und bleibt dabei kostenlos und für alle frei zugänglich. Das ist nur möglich, weil wir eine große und treue Community haben, die uns mit ihren Spenden unterstützt.</p>",
+      "cta": "Werde auch Teil dieser Community und unterstütze unsere Arbeit mit einer Spende!"
   },
   "btns": {
     "start": "Check starten",

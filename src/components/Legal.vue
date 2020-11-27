@@ -27,15 +27,16 @@
         Schönhauser Allee 6/7<br>
         10119 Berlin</p>
 
-      <p><strong>Calculator:</strong><br>
-        Oscar Braunert – <a href="https://www.ovl.design/">www.ovl.design</a></p>
-
       <p><strong>Programmierung:</strong><br>
         lislis - <a href="https://lislis.de">lislis.de</a></p>
 
       <p><strong>Design:</strong><br>
         Ole - <a href="https://netzpolitik.org/">netzpolitik.org</a></p>
       </p>
+
+      <p><strong>Calculator:</strong><br>
+        Oscar Braunert – <a href="https://www.ovl.design/">www.ovl.design</a></p>
+
       <p><strong>Feedback:</strong><br>
         <a href="mailto:datenscham@netzpolitik.org">datenscham@netzpolitik.org</a></p>
     </section>

@@ -2,7 +2,7 @@
   <aside>
     <section id="datenschutzhinweise"  class="legal">
       <h2>Disclaimer</h2>
-      <p>Dieses Score-Berechnungs-Tool dient der Unterhaltung und Sensibilisierung für die eigene Datensicherheit. Alle Aufzählungen beanspruchen keine Vollständigkeit und stellen keine generellen Empfehlungen oder Warnungen dar. Mit dieser Seite sollen Menschen ermutigt werden, sich kritisch mit ihrem digitalen Verhalten zu beschäftigen. Viel Spaß!</p>
+      <p>    Dieses Score-Berechnungs-Tool dient der Unterhaltung und Sensibilisierung für Datenschutz und IT-Sicherheit. Die Aufzählungen beanspruchen keine Vollständigkeit und stellen keine generalisierbaren Empfehlungen dar. Je nach Kontext können ganz unterschiedliche Maßnahmen zum Schutz der Privatsphäre sinnvoll sein. Mit der Aktion sollen Menschen ermuntert werden, sich kritisch mit ihrem digitalen Verhalten zu beschäftigen. Viel Spaß!</p>
       <h2>Datenschutz</h2>
       <ul>
         <li>Es werden keine Antworten gespeichert oder über die Berechnung des Privacy-Scores hinausgehend ausgewertet.</li>

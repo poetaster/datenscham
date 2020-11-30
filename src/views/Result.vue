@@ -58,9 +58,9 @@
    methods: {
      whatsMyRange() {
        const score = this.$root.$data.score
-       if (this.between(score, 0, 30)) {
+       if (this.between(score, 0, 31)) {
          this.range = 'low'
-       } else if (this.between(score, 31, 70)) {
+       } else if (this.between(score, 31, 71)) {
          this.range = 'middle'
        } else if (this.between(score, 71, 101)) {
          this.range = 'high'

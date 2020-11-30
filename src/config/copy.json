@@ -8,7 +8,7 @@
     "conclusion": "Fazit",
     "eval": {
       "low": "Datenschleuder",
-      "middle": "Datenschutz-Schweinehund",
+      "middle": "Datenschutz-Muffel",
       "high": "Privacy-Ninja"
     },
     "plug": {
@@ -17,7 +17,7 @@
       "high": "Wow, du bist ein:e echte Privacy-Ninja! „The only good data is no data“ ist dein Motto und das lebst Du auch. Dir schaut niemand in die Karten und bevor Du unverschlüsselst kommunizierst, kommunizierst du lieber gar nicht. Dass Deine Daten Dir gehören, ist für Dich kein Spleen der Digitalbohème, sondern Lifestyle. Schließlich hast Du den schwarzen Gürtel in digitaler Selbstverteidigung nicht umsonst. Und sagte nicht schon Edward Snowden, dass ..."
     },
       "linkToSpoiler": "Hier geht’s zur Auswertung.",
-      "disclaimer": "Mit diesem nicht ganz ernst gemeinten Datenscham-Rechner wollen wir dich für deine Dastensicherheit sensibilisieren. Auch dafür recherchieren und schreiben wir bei <a href=\"https://netzpolitik.org\">netzpolitik.org.</a> Wir bleiben dran und haken nach, wir klären auf und hinterfragen. Jeden Tag und unermüdlich. Unser Angebot ist und bleibt dabei kostenlos und für alle frei zugänglich. Das ist nur möglich, weil wir eine große und treue Community haben, die uns mit ihren Spenden unterstützt.</p>",
+      "disclaimer": "Mit diesem nicht ganz ernst gemeinten Datenscham-Rechner wollen wir dich für digitale Sicherheit sensibilisieren – und Dein Interesse wecken. Wir alle tragen Verantwortung für unsere digitale Umwelt. Deshalb ist es wichtig, das große Ganze im Blick zu haben. Bei <a href=\"https://netzpolitik.org\">netzpolitik.org</a> bleiben wir dran und haken nach, wir klären auf und hinterfragen. Unser Angebot ist und bleibt dabei kostenlos. Das ist nur möglich, weil wir eine große und treue Community haben, die uns mit ihren Spenden unterstützt.",
       "cta": "Werde auch Teil dieser Community und unterstütze unsere Arbeit mit einer Spende!"
   },
   "btns": {
@@ -30,7 +30,7 @@
   "footer": {
     "data": "Hinweise",
     "imprint": "Impressum",
-    "data_claim": "Die Ergbnisse dieses Test werden von uns NICHT gespeichert, ausgewertet oder sonstwie weiterverwendet. Deine Daten gehören Dir!",
-    "service": "Ein Angebot von"
+    "data_claim": "Die Ergebnisse dieses Test werden von uns NICHT gespeichert, ausgewertet oder sonstwie weiterverwendet. Deine Daten gehören Dir!",
+    "service": "Eine Aktion von"
   }
 }

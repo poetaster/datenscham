@@ -23,9 +23,9 @@
             { "text": "MetaGer", "score": 10.04 },
             { "text": "Qwant", "score": 10.03 },
             { "text": "Ecosia", "score": 7 },
-            { "text": "Andere", "score": 5 },
             { "text": "Bing", "score": 3 },
-            { "text": "Google", "score": 0 }
+            { "text": "Google", "score": 0 },
+            { "text": "Andere", "score": 5 }
         ],
         "footnote": "Eine empfehlenswerte Suchmaschine speichert deine Suchanfragen nicht länger als unbedingt nötig und wertet sie auch nicht zu kommerziellen Zwecken aus. Punkt. Wenn Du Fragen zu guten Alternativen hast, dann gibt es <a href=\"https://netzpolitik.org/2018/kleines-einmaleins-der-digitalen-selbstverteidigung/#Alternativen\">hier Hilfestellung</a>."
     },
@@ -44,12 +44,12 @@
         "id": 4,
         "title": "Welchen Cloud-Speicher benutzt Du?",
         "answers": [
-            { "text": "Welche Cloud?", "score": 10.02 },
-            { "text": "Anderen", "score": 10.03 },
             { "text": "NextCloud", "score": 10.01 },
             { "text": "Dropbox", "score": 5.01 },
             { "text": "iCloud", "score": 5.02 },
-            { "text": "Google Drive", "score": 0 }
+            { "text": "Google Drive", "score": 0 },
+            { "text": "Anderen", "score": 10.03 },
+            { "text": "Welche Cloud?", "score": 10.02 }
         ],
         "footnote": "Deine Fotos, Steuerunterlagen oder Liebesbriefe sollte – wenn überhaupt – nur in gut geschützten (und verschlüsselten) Clouds liegen. Am besten suchst Du dir einen sicheren Cloud-Anbieter mit Servern in Europa. Das alles gilt nur, wenn ein externes Speichermedium keine Option ist."
     },
@@ -77,10 +77,10 @@
         "answers": [
             { "text": "Signal", "score": 10.01 },
             { "text": "Threema", "score": 10.02 },
-            { "text": "Andere", "score": 5 },
             { "text": "Telegram", "score": 4 },
             { "text": "WhatsApp", "score": 2 },
-            { "text": "Facebook Messenger", "score": 0 }
+            { "text": "Facebook Messenger", "score": 0 },
+            { "text": "Andere", "score": 5 }
         ],
         "footnote": "Es gibt Messenger, die sind sicher verschlüsselt und speichern so gut wie keine Daten von dir. Es gibt welche, die sind zwar verschlüsselt, doch sie werten deine Metadaten aus, also wen du kennst und wie oft und wie lange du mit wem kommunizierst. Und es gibt Messenger, die dir nicht mal standardmäßig Ende-zu-Ende-verschlüsselte Kommunikation ermöglichen. Informier dich <a href=\"https://netzpolitik.org/2018/kleines-einmaleins-der-digitalen-selbstverteidigung/#Messenger\">hier</a> welche Möglichkeiten Du hast, dich besser zu schützen."
     },
@@ -88,7 +88,6 @@
         "id": 8,
         "title": "Welchen Social-Media-Kanal benutzt Du hauptsächlich?",
         "answers": [
-            { "text": "Keinen", "score": 10.02 },
             { "text": "Mastodon", "score": 10.01 },
             { "text": "TikTok", "score": 0.01 },
             { "text": "Facebook", "score": 0.02 },
@@ -96,7 +95,8 @@
             { "text": "SnapChat", "score": 0.04 },
             { "text": "Twitter", "score": 0.05 },
             { "text": "YouTube", "score": 0.06 },
-            { "text": "Andere", "score": 0.07 }
+            { "text": "Andere", "score": 0.07 },
+            { "text": "Keinen", "score": 10.02 }
         ],
         "footnote": "Soziale Netzwerke haben klare Vorteile, ohne Frage. Aber für viele von ihnen bist Du leider nur eine für kommerzielle Zwecke auswertbare Nummer. Dessen solltest Du dir beim Liken und Sharen bewusst sein. Es lohnt sich außerdem, sich mit <a href=\"https://netzpolitik.org/2017/interview-die-anfangsphase-des-alternativen-sozialen-netzwerks-mastodon-ist-vorueber/\"> dezentralen Netzwerken </a> auseinanderzusetzen. Sie ermöglichen eine alternative, datenschutzfreundliche Infrastruktur in Nutzer:innenhand."
     },

@@ -62,7 +62,7 @@
          this.range = 'low'
        } else if (this.between(score, 31, 70)) {
          this.range = 'middle'
-       } else if (this.between(score, 71, 100)) {
+       } else if (this.between(score, 71, 101)) {
          this.range = 'high'
        } else {
          this.range = null

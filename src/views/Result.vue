@@ -3,7 +3,7 @@
     <div class="result-wrapper">
       <div class="result-result">
         <h1 class="">{{ copy.result.your_score}}:</h1>
-        <p class="result-score">{{ score }} von 10 Punkten</p>
+        <p class="result-score">{{ score }} von 100</p>
         <p class="result-eval">
           {{ copy.result.conclusion }}:<br></br>
           {{ scoreEvalutation  }}</p>
@@ -91,7 +91,8 @@
        return this.copy.result.plug[this.range]
      },
      score() {
-       return Math.floor(this.$root.$data.score / 10)
+       //return Math.floor(this.$root.$data.score / 10)
+       return Math.floor(this.$root.$data.score)
      }
    }
  }
@@ -104,6 +105,11 @@
    font-weight: 600;
    margin-top: 0;
    margin-bottom: 0;
+ }
+ @media only screen and (max-width: 380px) {
+   .result-score {
+     font-size: 3rem;
+   }
  }
  #twingle {
    background-color: white;

@@ -78,8 +78,9 @@
      },
      onAnswerClick(answer) {
        const { questions } = this
-       const clickedQuestion = questions.find((q) => q.id === answer.id)
 
+       const clickedQuestion = questions.find((q) => q.id === answer.id)
+       this.$emit('userSelect', answer)
        this.$set(clickedQuestion, 'activeScore', answer.score)
      }
    }

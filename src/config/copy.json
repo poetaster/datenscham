@@ -1,10 +1,10 @@
 {
   "intro": {
     "title": "Wie sicher ist dein digitales ich?",
-    "claim": "Errechne jetzt anhand zehn kurzer Fragen deinen ganz persönlichen Datensicherheits-Score."
+    "claim": "Errechne jetzt anhand zehn kurzer Fragen deinen ganz persönlichen Privacy-Score. Hast Du Grund zu Datenscham?"
   },
   "result": {
-    "your_score": "Dein Datensicherheits-Score",
+    "your_score": "Dein Privacy-Score",
     "conclusion": "Fazit",
     "eval": {
       "low": "Datenschleuder",

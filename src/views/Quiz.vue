@@ -7,6 +7,7 @@
       :buttonText="text"
       v-on:scoreResult="showScore"
       v-on:missingQuestions="showError"
+      v-on:userSelect="storeChoice"
       :missingQ="missingQ" />
 
     <template v-if="error">
@@ -50,8 +51,16 @@
      showError(evt) {
        this.missingQ = evt
        this.error = `Noch ${evt.length} Fragen unbeantwortet.`
+     },
+     storeChoice(evt) {
+       //console.log(evt)
+       if (!this.$root.$data.selectedAnswers) {
+         this.$root.$data.selectedAnswers = {}
+       }
+       this.$root.$data.selectedAnswers[`${evt.id}`] = evt.score
+
      }
    }
-}
+ }
 
 </script>

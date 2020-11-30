@@ -44,7 +44,8 @@
    },
    data() {
      return {
-       transitionName: 'slide-left'
+       transitionName: 'slide-left',
+       selectedAnswers: {}
        //copy: Copy
      }
    },

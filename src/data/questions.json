@@ -42,7 +42,7 @@
     },
     {
         "id": 4,
-        "title": "Welchen Cloud-Speicher benutzt Du?",
+        "title": "Welchen Cloud-Speicher benutzt Du hauptsächlich?",
         "answers": [
             { "text": "NextCloud", "score": 10.01 },
             { "text": "Dropbox", "score": 5.01 },
@@ -77,7 +77,7 @@
         "answers": [
             { "text": "Signal", "score": 10.01 },
             { "text": "Threema", "score": 10.02 },
-            { "text": "Telegram", "score": 4 },
+            { "text": "Telegram", "score": 2 },
             { "text": "WhatsApp", "score": 2 },
             { "text": "Facebook Messenger", "score": 0 },
             { "text": "Andere", "score": 5 }

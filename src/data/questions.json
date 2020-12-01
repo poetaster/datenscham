@@ -4,7 +4,7 @@
         "title": "Welchen Browser benutzt Du hauptsächlich?",
         "answers": [
             { "text": "Tor", "score": 10 },
-            { "text": "Brave", "score": 9 },
+            { "text": "Brave", "score": 7 },
             { "text": "Chromium", "score": 8 },
             { "text": "Firefox", "score": 7 },
             { "text": "Safari", "score": 5 },
@@ -33,7 +33,8 @@
         "id": 3,
         "title": "Und wie oft löscht Du die Cookies im Browser?",
         "answers": [
-            { "text": "nach jeder Session", "score": 10 },
+            { "text": "ich blockiere Cookies", "score": 10 },
+            { "text": "nach jeder Session", "score": 9 },
             { "text": "gelegentlich", "score": 5 },
             { "text": "selten", "score": 3 },
             { "text": "nie", "score": 0 }
@@ -104,11 +105,11 @@
         "id": 9,
         "title": "Wieviele deiner letzten Online-Bestellungen hast Du bei Amazon getätigt?",
         "answers": [
-            { "text": "0/10", "score": 10 },
-            { "text": "1-4/10", "score": 6 },
-            { "text": "5/10", "score": 5 },
-            { "text": "6-9/10", "score": 3 },
-            { "text": "10/10", "score": 0 }
+            { "text": "0 von 10", "score": 10 },
+            { "text": "1-4 von 10", "score": 6 },
+            { "text": "5 von 10", "score": 5 },
+            { "text": "6-9 von 10", "score": 3 },
+            { "text": "10 von 10", "score": 0 }
         ],
         "footnote": "Monopolbildung? Steuervermeidung? Arbeitnehmer:innenrechte? Und natürlich <a href=\"https://netzpolitik.org/2020/wettbewerbsrecht-eu-kommission-prueft-amazons-datenmacht/\">Datenmacht.</a> Die Liste mit Gründen kleinere oder lokale Unternehmen zu unterstützen, ist lang."
     },

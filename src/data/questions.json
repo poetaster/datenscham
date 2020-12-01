@@ -6,7 +6,7 @@
             { "text": "Tor", "score": 10 },
             { "text": "Brave", "score": 7 },
             { "text": "Chromium", "score": 8 },
-            { "text": "Firefox", "score": 7 },
+            { "text": "Firefox", "score": 7.01 },
             { "text": "Safari", "score": 5 },
             { "text": "Chrome", "score": 0.01 },
             { "text": "Edge", "score": 0.02 },
@@ -78,7 +78,7 @@
         "answers": [
             { "text": "Signal", "score": 10.01 },
             { "text": "Threema", "score": 10.02 },
-            { "text": "Telegram", "score": 2 },
+            { "text": "Telegram", "score": 2.01 },
             { "text": "WhatsApp", "score": 2 },
             { "text": "Facebook Messenger", "score": 0 },
             { "text": "Andere", "score": 5 }

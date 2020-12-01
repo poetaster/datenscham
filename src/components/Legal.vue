@@ -35,7 +35,7 @@
       </p>
 
       <p><strong>Calculator:</strong><br>
-        Oscar Braunert – <a href="https://www.ovl.design/">www.ovl.design</a></p>
+        ovl – <a href="https://www.ovl.design/">www.ovl.design</a></p>
 
       <p><strong>Feedback:</strong><br>
         <a href="mailto:datenscham@netzpolitik.org">datenscham@netzpolitik.org</a></p>

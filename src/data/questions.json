@@ -5,8 +5,8 @@
         "answers": [
             { "text": "Tor", "score": 10 },
             { "text": "Brave", "score": 7 },
-            { "text": "Chromium", "score": 8 },
-            { "text": "Firefox", "score": 7.01 },
+            { "text": "Chromium", "score": 7.01 },
+            { "text": "Firefox", "score": 6.01 },
             { "text": "Safari", "score": 5 },
             { "text": "Chrome", "score": 0.01 },
             { "text": "Edge", "score": 2.02 },

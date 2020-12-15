@@ -78,8 +78,8 @@
             { "text": "Telegram", "score": 2.01 },
             { "text": "WhatsApp", "score": 2.02 },
             { "text": "Facebook Messenger", "score": 0 },
-            { "text": "Andere", "score": 5.01 }
-            { "text": "XMPP/Jabber", "score": 10.02 }
+            { "text": "Andere", "score": 5.01 },
+            { "text": "XMPP/Jabber", "score": 10.02 },
             { "text": "Keinen", "score": 10.01 }
         ],
         "footnote": "Es gibt Messenger, die sind sicher verschlüsselt und speichern so gut wie keine Daten von dir. Es gibt welche, die sind zwar verschlüsselt, doch sie werten deine Metadaten aus, also wen du kennst und wie oft und wie lange du mit wem kommunizierst. Und es gibt Messenger, die dir nicht mal standardmäßig Ende-zu-Ende-verschlüsselte Kommunikation ermöglichen. Informier dich <a href=\"https://netzpolitik.org/2018/kleines-einmaleins-der-digitalen-selbstverteidigung/#Messenger\">hier</a> welche Möglichkeiten Du hast, dich besser zu schützen."
